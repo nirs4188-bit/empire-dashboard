@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sheinbein Empire Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+  <div class="sidebar-head">
+    <svg class="logo" viewBox="0 0 40 40" aria-label="Sheinbein Empire logo" fill="none">
+      <rect x="3" y="3" width="34" height="34" rx="4" stroke="currentColor" stroke-width="2"/>
+      <path d="M10 28 L10 12 L20 20 L30 12 L30 28" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/>
+    </svg>
+    <span class="sidebar-brand">Sheinbein</span>
+    <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-label="Toggle sidebar">
+      <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h12M4 10h12M4 14h12" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+  <nav class="sidebar-nav">
+    <button class="nav-item active" data-page="overview" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <rect x="3" y="3" width="6" height="6" rx="1"/>
+        <rect x="11" y="3" width="6" height="6" rx="1"/>
+        <rect x="3" y="11" width="6" height="6" rx="1"/>
+        <rect x="11" y="11" width="6" height="6" rx="1"/>
+      </svg>
+      <span class="nav-label">Overview</span>
+    </button>
+    <button class="nav-item" data-page="properties" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M3 9 L10 3 L17 9 V17 H3 Z" stroke-linejoin="round"/>
+        <path d="M8 17 V12 H12 V17"/>
+      </svg>
+      <span class="nav-label">Properties</span>
+    </button>
+    <button class="nav-item" data-page="analytics" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M3 17 V4 M3 17 H17" stroke-linecap="round"/>
+        <path d="M6 13 L9 9 L12 11 L16 6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="nav-label">Analytics</span>
+    </button>
+    <button class="nav-item" data-page="debt" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M10 3 L17 6 V11 C17 14 14 16 10 17 C6 16 3 14 3 11 V6 Z" stroke-linejoin="round"/>
+        <path d="M10 8 V11 M10 13 V13.5" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-label">Debt &amp; Risk</span>
+    </button>
+    <button class="nav-item" data-page="distributions" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <circle cx="10" cy="10" r="7"/>
+        <path d="M10 6 V10 L13 12" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-label">Distributions</span>
+    </button>
+    <button class="nav-item" data-page="table" type="button">
+      <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6">
+        <rect x="3" y="4" width="14" height="12" rx="1"/>
+        <path d="M3 8 H17 M3 12 H17 M8 4 V16"/>
+      </svg>
+      <span class="nav-label">Table</span>
+    </button>
+  </nav>
+  <div class="sidebar-foot">
+    <div class="live-indicator" id="live-indicator">
+      <span class="dot" id="live-dot"></span>
+      <span class="nav-label" id="live-label">Cached</span>
+    </div>
+  </div>
+</aside>
+
+<!-- Main -->
+<div class="shell">
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="page-title">
+        <h1 id="page-title">Overview</h1>
+        <p class="subtitle"><span id="company-count">0</span> companies · Updated <span id="pulled-at">—</span></p>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="refresh-btn" class="btn btn-ghost" type="button">Refresh</button>
+      <button id="print-btn" class="btn btn-ghost" type="button">Export PDF</button>
+      <div class="toggle-group" role="tablist" aria-label="View toggle">
+        <button type="button" class="toggle-btn active" data-view="all" role="tab" aria-selected="true">Total</button>
+        <button type="button" class="toggle-btn" data-view="share" role="tab" aria-selected="false">Your Share</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Overview -->
+    <section class="page active" id="page-overview">
+      <div class="kpi-grid" id="kpi-grid"></div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Net Worth Trend</h2>
+          <p class="panel-sub">Value-based equity · 2022 through 2026 YTD</p>
+        </div>
+        <div class="chart-box chart-box-tall">
+          <canvas id="nw-chart"></canvas>
+        </div>
+      </div>
+
+      <div class="charts-row">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Revenue Trend</h2>
+            <p class="panel-sub">Total revenue by year</p>
+          </div>
+          <div class="chart-box">
+            <canvas id="revenue-chart"></canvas>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Net Equity by Company</h2>
+            <p class="panel-sub">Top companies · Property value minus mortgages</p>
+          </div>
+          <div class="chart-box chart-box-tall">
+            <canvas id="equity-chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Year-over-Year Revenue</h2>
+          <p class="panel-sub">Top 10 companies · 2022 through 2025</p>
+        </div>
+        <div class="chart-box chart-box-tall">
+          <canvas id="yoy-chart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Properties -->
+    <section class="page" id="page-properties">
+      <div class="page-intro">
+        <p class="page-lead">Detailed property profile for each LLC with an underlying asset. Metrics reflect the currently selected view (<span class="view-label">Total</span>).</p>
+      </div>
+      <div class="property-grid" id="property-grid"></div>
+    </section>
+
+    <!-- Analytics -->
+    <section class="page" id="page-analytics">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Net Worth Trend</h2>
+          <p class="panel-sub">Consolidated equity trajectory · 2022 – 2026 YTD</p>
+        </div>
+        <div class="chart-box chart-box-tall">
+          <canvas id="nw-chart-lg"></canvas>
+        </div>
+      </div>
+
+      <div class="charts-row">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Revenue Concentration</h2>
+            <p class="panel-sub">Top 10 LLCs' share of 2025 revenue</p>
+          </div>
+          <div class="chart-box chart-box-tall">
+            <canvas id="concentration-chart"></canvas>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Top Earners · 2025</h2>
+            <p class="panel-sub">Revenue and net income</p>
+          </div>
+          <div class="chart-box chart-box-tall">
+            <canvas id="top-earners-chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Returns by Property</h2>
+          <p class="panel-sub">Cash-on-Cash return (NOI ÷ cash invested) and Return on Equity (NOI ÷ current equity)</p>
+        </div>
+        <div class="chart-box chart-box-xtall">
+          <canvas id="returns-chart"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Profitability Heatmap</h2>
+          <p class="panel-sub">Net margin % by company by year · Top 15 by 2025 revenue</p>
+        </div>
+        <div class="heatmap-wrap">
+          <table class="heatmap" id="heatmap"></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Debt & Risk -->
+    <section class="page" id="page-debt">
+      <div class="kpi-grid kpi-grid-4" id="risk-kpi-grid"></div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Loan-to-Value Distribution</h2>
+          <p class="panel-sub">Mortgage ÷ property value · sorted high to low</p>
+        </div>
+        <div class="chart-box chart-box-xtall">
+          <canvas id="ltv-chart"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>DSCR Analysis</h2>
+          <p class="panel-sub">Debt service coverage ratio · &gt;1.5 healthy · 1.0–1.5 adequate · &lt;1.0 underwater</p>
+        </div>
+        <div class="chart-box chart-box-xtall">
+          <canvas id="dscr-chart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Distributions -->
+    <section class="page" id="page-distributions">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Distributions by Period</h2>
+          <p class="panel-sub">LLCs that have made owner distributions · Totals and per-period amounts</p>
+        </div>
+        <div class="table-wrap">
+          <table id="distributions-table">
+            <thead>
+              <tr>
+                <th>LLC</th>
+                <th class="num">July</th>
+                <th class="num">October</th>
+                <th class="num">February</th>
+                <th class="num">August</th>
+                <th class="num">December</th>
+                <th class="num">Total</th>
+              </tr>
+            </thead>
+            <tbody id="distributions-tbody"></tbody>
+            <tfoot id="distributions-tfoot"></tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Table -->
+    <section class="page" id="page-table">
+      <div class="panel">
+        <div class="panel-header panel-header-row">
+          <div>
+            <h2>All Companies</h2>
+            <p class="panel-sub">Click column headers to sort · <span id="row-count">0</span> shown</p>
+          </div>
+          <div class="table-controls">
+            <input type="search" id="search" placeholder="Search companies…" autocomplete="off" />
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="company-table">
+            <thead>
+              <tr>
+                <th data-sort="status" class="col-status"></th>
+                <th data-sort="name">Company</th>
+                <th data-sort="combined_pct" class="num">Your %</th>
+                <th data-sort="r2022" class="num">2022 Rev</th>
+                <th data-sort="r2023" class="num">2023 Rev</th>
+                <th data-sort="r2024" class="num">2024 Rev</th>
+                <th data-sort="r2025" class="num sort-active sort-desc">2025 Rev</th>
+                <th data-sort="r2026" class="num">2026 YTD</th>
+                <th data-sort="ni2025" class="num">2025 Net</th>
+                <th data-sort="margin2025" class="num">Margin %</th>
+                <th data-sort="assets" class="num">Value</th>
+                <th data-sort="mortgages" class="num">Mortgages</th>
+                <th data-sort="ltv" class="num">LTV</th>
+                <th data-sort="dscr" class="num">DSCR</th>
+                <th data-sort="coc_return" class="num">CoC %</th>
+                <th data-sort="roe_return" class="num">ROE %</th>
+                <th data-sort="cap_rate" class="num">Cap Rate</th>
+                <th data-sort="net_equity" class="num">Net Equity</th>
+                <th data-sort="your_equity" class="num">Your Equity</th>
+                <th data-sort="flagcount">Flags</th>
+              </tr>
+            </thead>
+            <tbody id="company-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Property values: Conservative market estimates (Equity Value End 2025) · P&amp;L: QuickBooks Online</p>
+    <p class="muted">Ownership from entity records · OP = Operating entity (no property)</p>
+  </footer>
+</div>
+
+<!-- Mobile bottom tab bar -->
+<nav class="mobile-tabs" aria-label="Mobile navigation">
+  <button class="mtab active" data-page="overview" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg>
+    <span>Overview</span>
+  </button>
+  <button class="mtab" data-page="properties" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9 L10 3 L17 9 V17 H3 Z" stroke-linejoin="round"/></svg>
+    <span>Props</span>
+  </button>
+  <button class="mtab" data-page="analytics" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17 V4 M3 17 H17" stroke-linecap="round"/><path d="M6 13 L9 9 L12 11 L16 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Analytics</span>
+  </button>
+  <button class="mtab" data-page="debt" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 3 L17 6 V11 C17 14 14 16 10 17 C6 16 3 14 3 11 V6 Z" stroke-linejoin="round"/></svg>
+    <span>Debt</span>
+  </button>
+  <button class="mtab" data-page="distributions" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7"/><path d="M10 6 V10 L13 12" stroke-linecap="round"/></svg>
+    <span>Distrib</span>
+  </button>
+  <button class="mtab" data-page="table" type="button">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="14" height="12" rx="1"/><path d="M3 8 H17 M3 12 H17 M8 4 V16"/></svg>
+    <span>Table</span>
+  </button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2548 @@
+{
+  "pulled_at": "2026-04-18 02:07:14",
+  "companies": [
+    {
+      "name": "7006 Shipp rd LLC",
+      "realm_id": "9130357245658306",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 200772.68,
+          "cogs": 0,
+          "expenses": 51370.46,
+          "net_income": 149402.22
+        },
+        "2023": {
+          "income": 142354.45,
+          "cogs": 0,
+          "expenses": 67276.66,
+          "net_income": 75077.79
+        },
+        "2024": {
+          "income": 121269.06,
+          "cogs": 0,
+          "expenses": 40859.95,
+          "net_income": 80409.11
+        },
+        "2025": {
+          "income": 107174.85,
+          "cogs": 0,
+          "expenses": 24951.21,
+          "net_income": 82223.64
+        },
+        "2026_ytd": {
+          "income": 18000.0,
+          "cogs": 0,
+          "expenses": 3862.03,
+          "net_income": 14137.97
+        }
+      },
+      "bs": {
+        "assets": 1300000,
+        "liabilities": 497400,
+        "equity": 802600,
+        "mortgages": 497400
+      },
+      "equity_sheet": {
+        "property_value": 1300000,
+        "total_investment": 732600,
+        "mortgage": 497400,
+        "equity_cost_based": 235201,
+        "equity_value_based": 802600,
+        "your_equity_cost": 235201,
+        "your_equity_value": 802600
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 38.3,
+      "margins": {
+        "2022": 74.4,
+        "2023": 52.7,
+        "2024": 66.3,
+        "2025": 76.7,
+        "2026_ytd": 78.5
+      },
+      "dscr": 2.07,
+      "est_annual_debt_service": 39711.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "7006 Shipp Rd, Rowlett TX 75088",
+        "management": "AirBNB - Haim",
+        "loan_number": "721071728"
+      },
+      "acquisition": {
+        "house_cost": 494696.0,
+        "reno_cost": 237904.0,
+        "total_investment": 732600.0,
+        "cash_invested": 235200.0
+      },
+      "flags": [],
+      "revenue_pct": 3.6,
+      "coc_return": 35.0,
+      "roe_return": 10.2,
+      "noi_2025": 82224,
+      "cap_rate": 6.3
+    },
+    {
+      "name": "711 S Houston LLC",
+      "realm_id": "9130357245455116",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 12.22,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 41983.42,
+          "cogs": 0,
+          "expenses": 8646.12,
+          "net_income": 33397.2
+        },
+        "2024": {
+          "income": 34006.0,
+          "cogs": 0,
+          "expenses": 16534.46,
+          "net_income": 17492.09
+        },
+        "2025": {
+          "income": 42409.5,
+          "cogs": 0,
+          "expenses": 19746.68,
+          "net_income": 22668.73
+        },
+        "2026_ytd": {
+          "income": 9619.09,
+          "cogs": 0,
+          "expenses": 1159.94,
+          "net_income": 8459.15
+        }
+      },
+      "bs": {
+        "assets": 350000,
+        "liabilities": 0,
+        "equity": 350000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 350000,
+        "total_investment": 306829,
+        "mortgage": 0,
+        "equity_cost_based": 306829,
+        "equity_value_based": 350000,
+        "your_equity_cost": 37500,
+        "your_equity_value": 42776
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": 79.5,
+        "2024": 51.4,
+        "2025": 53.5,
+        "2026_ytd": 87.9
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 672.199,
+        "periods": [
+          {
+            "month": "October",
+            "amount": 672.199
+          }
+        ]
+      },
+      "property_details": {
+        "address": "711 S Houston Street Unit 4, Wolfe City, TX 75496",
+        "management": "A&N",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 144329.0,
+        "reno_cost": 162500.0,
+        "total_investment": 306829.0,
+        "cash_invested": 306829.0
+      },
+      "flags": [],
+      "revenue_pct": 1.4,
+      "coc_return": 7.4,
+      "roe_return": 6.5,
+      "noi_2025": 22669,
+      "cap_rate": 6.5
+    },
+    {
+      "name": "1712 Fagan Drive LLC",
+      "realm_id": "9130357245550186",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 29534.01,
+          "cogs": 0,
+          "expenses": 9772.73,
+          "net_income": 19761.28
+        },
+        "2023": {
+          "income": 19122.0,
+          "cogs": 0,
+          "expenses": 14203.65,
+          "net_income": 4918.35
+        },
+        "2024": {
+          "income": 20020.99,
+          "cogs": 0,
+          "expenses": 14742.4,
+          "net_income": 5278.59
+        },
+        "2025": {
+          "income": 33356.56,
+          "cogs": 0,
+          "expenses": 8292.4,
+          "net_income": 25064.16
+        },
+        "2026_ytd": {
+          "income": 7312.03,
+          "cogs": 0,
+          "expenses": 1260.91,
+          "net_income": 6051.12
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 95211,
+        "equity": 154789,
+        "mortgages": 95211
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 158708,
+        "mortgage": 95211,
+        "equity_cost_based": 63497,
+        "equity_value_based": 154789,
+        "your_equity_cost": 63497,
+        "your_equity_value": 154789
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 38.1,
+      "margins": {
+        "2022": 66.9,
+        "2023": 25.7,
+        "2024": 26.4,
+        "2025": 75.1,
+        "2026_ytd": 82.8
+      },
+      "dscr": 3.3,
+      "est_annual_debt_service": 7601.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "1712 Fagan Drive Blue Mound TX 76131",
+        "management": "Locke",
+        "loan_number": "721568384"
+      },
+      "acquisition": {
+        "house_cost": 89688.0,
+        "reno_cost": 69020.0,
+        "total_investment": 158708.0,
+        "cash_invested": 63497.0
+      },
+      "flags": [],
+      "revenue_pct": 1.1,
+      "coc_return": 39.5,
+      "roe_return": 16.2,
+      "noi_2025": 25064,
+      "cap_rate": 10.0
+    },
+    {
+      "name": "397 Willis Point LLC",
+      "realm_id": "9130357245434136",
+      "nir_pct": 0,
+      "alexa_pct": 15.0,
+      "combined_pct": 15.0,
+      "pl": {
+        "2022": {
+          "income": 29090.97,
+          "cogs": 0,
+          "expenses": 6590.91,
+          "net_income": 22527.26
+        },
+        "2023": {
+          "income": 29561.95,
+          "cogs": 0,
+          "expenses": 16290.82,
+          "net_income": 13321.27
+        },
+        "2024": {
+          "income": 26327.62,
+          "cogs": 0,
+          "expenses": 12293.6,
+          "net_income": 14036.56
+        },
+        "2025": {
+          "income": 32519.2,
+          "cogs": 0,
+          "expenses": 14222.36,
+          "net_income": 18296.84
+        },
+        "2026_ytd": {
+          "income": 6862.71,
+          "cogs": 0,
+          "expenses": 5481.44,
+          "net_income": 1381.27
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 0,
+        "equity": 250000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 181716,
+        "mortgage": 0,
+        "equity_cost_based": 181716,
+        "equity_value_based": 250000,
+        "your_equity_cost": 27257,
+        "your_equity_value": 37500
+      },
+      "ownership_type": "alexa_direct",
+      "ltv": 0,
+      "margins": {
+        "2022": 77.4,
+        "2023": 45.1,
+        "2024": 53.3,
+        "2025": 56.3,
+        "2026_ytd": 20.1
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 34626.22,
+        "periods": [
+          {
+            "month": "July",
+            "amount": 7579.65
+          },
+          {
+            "month": "October",
+            "amount": 4897.02
+          },
+          {
+            "month": "February",
+            "amount": 8549.55
+          },
+          {
+            "month": "August",
+            "amount": 7600.0
+          },
+          {
+            "month": "December",
+            "amount": 6000.0
+          }
+        ]
+      },
+      "property_details": {
+        "address": "397 Wills Point Street, Canton, TX 75103",
+        "management": "Derek",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 131211.0,
+        "reno_cost": 50504.0,
+        "total_investment": 181716.0,
+        "cash_invested": 181716.0
+      },
+      "flags": [],
+      "revenue_pct": 1.1,
+      "coc_return": 10.1,
+      "roe_return": 7.3,
+      "noi_2025": 18297,
+      "cap_rate": 7.3
+    },
+    {
+      "name": "713 Sam Rayburn LLC",
+      "realm_id": "9130357631145836",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 18.21,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 20055.11,
+          "cogs": 0,
+          "expenses": 2176.73,
+          "net_income": 17878.38
+        },
+        "2025": {
+          "income": 11184.19,
+          "cogs": 0,
+          "expenses": 7646.66,
+          "net_income": 3537.53
+        },
+        "2026_ytd": {
+          "income": 5279.59,
+          "cogs": 0,
+          "expenses": 5976.05,
+          "net_income": -696.46
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 0,
+        "equity": 250000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 294900,
+        "mortgage": 0,
+        "equity_cost_based": 294900,
+        "equity_value_based": 250000,
+        "your_equity_cost": 53701,
+        "your_equity_value": 45525
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": 89.1,
+        "2025": 31.6,
+        "2026_ytd": -13.2
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 127400.0,
+        "reno_cost": 167500.0,
+        "total_investment": 294900.0,
+        "cash_invested": 294900.0
+      },
+      "flags": [],
+      "revenue_pct": 0.4,
+      "coc_return": 1.2,
+      "roe_return": 1.4,
+      "noi_2025": 3538,
+      "cap_rate": 1.4
+    },
+    {
+      "name": "2155 Hickory LLC",
+      "realm_id": null,
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 15.1,
+      "pl": {},
+      "bs": {
+        "assets": 550000,
+        "liabilities": 0,
+        "equity": 550000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 550000,
+        "total_investment": 438806,
+        "mortgage": 0,
+        "equity_cost_based": 438806,
+        "equity_value_based": 550000,
+        "your_equity_cost": 66260,
+        "your_equity_value": 83050
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 1130.0,
+        "periods": [
+          {
+            "month": "July",
+            "amount": 1130.0
+          }
+        ]
+      },
+      "property_details": {
+        "address": "2155 Hickory Trace Mabank TX",
+        "management": "",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 207556.0,
+        "reno_cost": 231250.0,
+        "total_investment": 438806.0,
+        "cash_invested": 438806.0
+      },
+      "flags": [],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "2722 E Vickery LLC",
+      "realm_id": "9130357631141086",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 14.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 28973.29,
+          "cogs": 0,
+          "expenses": 8172.2,
+          "net_income": 20801.09
+        },
+        "2025": {
+          "income": 49949.78,
+          "cogs": 0,
+          "expenses": 21306.62,
+          "net_income": 28643.16
+        },
+        "2026_ytd": {
+          "income": 14478.99,
+          "cogs": 0,
+          "expenses": 10405.3,
+          "net_income": 4073.69
+        }
+      },
+      "bs": {
+        "assets": 500000,
+        "liabilities": 0,
+        "equity": 500000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 500000,
+        "total_investment": 425893,
+        "mortgage": 0,
+        "equity_cost_based": 425893,
+        "equity_value_based": 500000,
+        "your_equity_cost": 59625,
+        "your_equity_value": 70000
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": 71.8,
+        "2025": 57.3,
+        "2026_ytd": 28.1
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 1995.15,
+        "periods": [
+          {
+            "month": "October",
+            "amount": 1995.15
+          }
+        ]
+      },
+      "property_details": {
+        "address": "2722 E Vickery Fort Worth",
+        "management": "Locke PM",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 172768.0,
+        "reno_cost": 253125.0,
+        "total_investment": 425893.0,
+        "cash_invested": 425893.0
+      },
+      "flags": [],
+      "revenue_pct": 1.7,
+      "coc_return": 6.7,
+      "roe_return": 5.7,
+      "noi_2025": 28643,
+      "cap_rate": 5.7
+    },
+    {
+      "name": "3645 Travis LLC",
+      "realm_id": "9341454716538734",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 14.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": -497.44,
+          "net_income": 497.44
+        },
+        "2025": {
+          "income": 34671.12,
+          "cogs": 0,
+          "expenses": 23439.21,
+          "net_income": 11231.91
+        },
+        "2026_ytd": {
+          "income": 9047.97,
+          "cogs": 0,
+          "expenses": 143916.67,
+          "net_income": -62416.44
+        }
+      },
+      "bs": {
+        "assets": 600000,
+        "liabilities": 420000,
+        "equity": 180000,
+        "mortgages": 420000
+      },
+      "equity_sheet": {
+        "property_value": 600000,
+        "total_investment": 509118,
+        "mortgage": 420000,
+        "equity_cost_based": 89118,
+        "equity_value_based": 180000,
+        "your_equity_cost": 12477,
+        "your_equity_value": 25200
+      },
+      "ownership_type": "through_amp",
+      "ltv": 70.0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 32.4,
+        "2026_ytd": -689.8
+      },
+      "dscr": 0.33,
+      "est_annual_debt_service": 33531.0,
+      "distributions": {
+        "total_distributed": 26040.22,
+        "periods": [
+          {
+            "month": "August",
+            "amount": 18900.0
+          },
+          {
+            "month": "December",
+            "amount": 7140.22
+          }
+        ]
+      },
+      "property_details": {
+        "address": "3645 Travis Av Fort Worth",
+        "management": "A&N",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 363673.0,
+        "reno_cost": 145445.0,
+        "total_investment": 509118.0,
+        "cash_invested": 89118.0
+      },
+      "flags": [
+        "Low DSCR"
+      ],
+      "revenue_pct": 1.2,
+      "coc_return": 12.6,
+      "roe_return": 6.2,
+      "noi_2025": 11232,
+      "cap_rate": 1.9
+    },
+    {
+      "name": "260 McGraw LLC",
+      "realm_id": "9341454226101877",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 20.5,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 3120.06,
+          "cogs": 0,
+          "expenses": 769.67,
+          "net_income": 2940.13
+        },
+        "2025": {
+          "income": 54006.42,
+          "cogs": 0,
+          "expenses": 35920.14,
+          "net_income": 18086.28
+        },
+        "2026_ytd": {
+          "income": 602.05,
+          "cogs": 0,
+          "expenses": 3946.16,
+          "net_income": -3344.11
+        }
+      },
+      "bs": {
+        "assets": 520000,
+        "liabilities": 345281,
+        "equity": 174719,
+        "mortgages": 345281
+      },
+      "equity_sheet": {
+        "property_value": 520000,
+        "total_investment": 451155,
+        "mortgage": 345281,
+        "equity_cost_based": 105874,
+        "equity_value_based": 174719,
+        "your_equity_cost": 21707,
+        "your_equity_value": 35823
+      },
+      "ownership_type": "through_amp",
+      "ltv": 66.4,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": 94.2,
+        "2025": 33.5,
+        "2026_ytd": -555.5
+      },
+      "dscr": 0.66,
+      "est_annual_debt_service": 27566.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "260 McGraw St Sherman TX",
+        "management": "AirBNB - Haim",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 218655.0,
+        "reno_cost": 232500.0,
+        "total_investment": 451155.0,
+        "cash_invested": 105874.0
+      },
+      "flags": [
+        "Low DSCR"
+      ],
+      "revenue_pct": 1.8,
+      "coc_return": 17.1,
+      "roe_return": 10.4,
+      "noi_2025": 18086,
+      "cap_rate": 3.5
+    },
+    {
+      "name": "406 W MORGAN LLC",
+      "realm_id": "9341456400274879",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 50.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 20.25,
+          "net_income": -20.25
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 0,
+        "equity": 250000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 256020,
+        "mortgage": 0,
+        "equity_cost_based": 256020,
+        "equity_value_based": 250000,
+        "your_equity_cost": 128010,
+        "your_equity_value": 125000
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 168520.0,
+        "reno_cost": 87500.0,
+        "total_investment": 256020.0,
+        "cash_invested": 256020.0
+      },
+      "flags": [
+        "Under Renovation"
+      ],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "827 S Crockett LLC",
+      "realm_id": "9130357245489386",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 19754.7,
+          "cogs": 0,
+          "expenses": 14681.09,
+          "net_income": 5073.61
+        },
+        "2024": {
+          "income": 34337.83,
+          "cogs": 0,
+          "expenses": 21868.08,
+          "net_income": 12469.75
+        },
+        "2025": {
+          "income": 54569.23,
+          "cogs": 0,
+          "expenses": 40995.18,
+          "net_income": 13574.05
+        },
+        "2026_ytd": {
+          "income": 7601.62,
+          "cogs": 0,
+          "expenses": 5127.08,
+          "net_income": -23.82
+        }
+      },
+      "bs": {
+        "assets": 400000,
+        "liabilities": 170000,
+        "equity": 230000,
+        "mortgages": 170000
+      },
+      "equity_sheet": {
+        "property_value": 400000,
+        "total_investment": 345651,
+        "mortgage": 170000,
+        "equity_cost_based": 175651,
+        "equity_value_based": 230000,
+        "your_equity_cost": 175651,
+        "your_equity_value": 230000
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 42.5,
+      "margins": {
+        "2022": null,
+        "2023": 25.7,
+        "2024": 36.3,
+        "2025": 24.9,
+        "2026_ytd": -0.3
+      },
+      "dscr": 1.0,
+      "est_annual_debt_service": 13572.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "827 S Crockett St, 121 w Moore, Sherman, TX 75090",
+        "management": "A&N",
+        "loan_number": "730871829"
+      },
+      "acquisition": {
+        "house_cost": 217218.0,
+        "reno_cost": 128433.0,
+        "total_investment": 345651.0,
+        "cash_invested": 175651.0
+      },
+      "flags": [],
+      "revenue_pct": 1.8,
+      "coc_return": 7.7,
+      "roe_return": 5.9,
+      "noi_2025": 13574,
+      "cap_rate": 3.4
+    },
+    {
+      "name": "2834 Millwood dr LLC",
+      "realm_id": "9130357245619976",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 49955.7,
+          "cogs": 0,
+          "expenses": 31499.95,
+          "net_income": 18455.75
+        },
+        "2024": {
+          "income": 59440.0,
+          "cogs": 0,
+          "expenses": 53613.88,
+          "net_income": 5826.12
+        },
+        "2025": {
+          "income": 61920.37,
+          "cogs": 0,
+          "expenses": 47279.07,
+          "net_income": 14641.3
+        },
+        "2026_ytd": {
+          "income": 16220.0,
+          "cogs": 0,
+          "expenses": 7050.48,
+          "net_income": 9169.52
+        }
+      },
+      "bs": {
+        "assets": 700000,
+        "liabilities": 541206,
+        "equity": 158794,
+        "mortgages": 541206
+      },
+      "equity_sheet": {
+        "property_value": 750000,
+        "total_investment": 787166,
+        "mortgage": 541206,
+        "equity_cost_based": 245960,
+        "equity_value_based": 208794,
+        "your_equity_cost": 245960,
+        "your_equity_value": 208794
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 72.2,
+      "margins": {
+        "2022": null,
+        "2023": 36.9,
+        "2024": 9.8,
+        "2025": 23.6,
+        "2026_ytd": 56.5
+      },
+      "dscr": 0.34,
+      "est_annual_debt_service": 43208.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 693600,
+        "reno_cost": 93566,
+        "total_investment": 787166,
+        "cash_invested": 245960
+      },
+      "flags": [
+        "High LTV",
+        "Low DSCR"
+      ],
+      "revenue_pct": 2.1,
+      "coc_return": 6.0,
+      "roe_return": 7.0,
+      "noi_2025": 14641,
+      "cap_rate": 2.0
+    },
+    {
+      "name": "5624 Eastside Ave LLC",
+      "realm_id": "9130357245640066",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 44693.37,
+          "cogs": 0,
+          "expenses": 20143.8,
+          "net_income": 24549.57
+        },
+        "2023": {
+          "income": 65222.26,
+          "cogs": 0,
+          "expenses": 39853.1,
+          "net_income": 25369.16
+        },
+        "2024": {
+          "income": 30690.44,
+          "cogs": 0,
+          "expenses": 46242.69,
+          "net_income": -15552.25
+        },
+        "2025": {
+          "income": 25150.3,
+          "cogs": 0,
+          "expenses": 49857.54,
+          "net_income": -24707.24
+        },
+        "2026_ytd": {
+          "income": 11736.96,
+          "cogs": 0,
+          "expenses": 4878.87,
+          "net_income": 6858.09
+        }
+      },
+      "bs": {
+        "assets": 700000,
+        "liabilities": 664514,
+        "equity": 35486,
+        "mortgages": 430000
+      },
+      "equity_sheet": {
+        "property_value": 700000,
+        "total_investment": 731003,
+        "mortgage": 430000,
+        "equity_cost_based": 66489,
+        "equity_value_based": 270000,
+        "your_equity_cost": 66489,
+        "your_equity_value": 270000.0
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 61.4,
+      "margins": {
+        "2022": 54.9,
+        "2023": 38.9,
+        "2024": -50.7,
+        "2025": -98.2,
+        "2026_ytd": 58.4
+      },
+      "dscr": null,
+      "est_annual_debt_service": 34330.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "5624 Eastside Avenue, Dallas, TX 75214",
+        "management": "A&N",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 585000.0,
+        "reno_cost": 146003.0,
+        "total_investment": 731003.0,
+        "cash_invested": 66489.0
+      },
+      "flags": [
+        "High LTV",
+        "Net Loss 2025"
+      ],
+      "revenue_pct": 0.8,
+      "coc_return": -37.2,
+      "roe_return": -9.2,
+      "noi_2025": -24707,
+      "cap_rate": -3.5
+    },
+    {
+      "name": "329 BLANDIN STREET LLC",
+      "realm_id": "9130357245389656",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 38094.31,
+          "cogs": 0,
+          "expenses": 15310.01,
+          "net_income": 22784.3
+        },
+        "2023": {
+          "income": 45393.95,
+          "cogs": 0,
+          "expenses": 22779.13,
+          "net_income": 22614.82
+        },
+        "2024": {
+          "income": 29355.54,
+          "cogs": 0,
+          "expenses": 24812.17,
+          "net_income": 4543.37
+        },
+        "2025": {
+          "income": 50056.82,
+          "cogs": 0,
+          "expenses": 27552.69,
+          "net_income": 22504.13
+        },
+        "2026_ytd": {
+          "income": 5122.82,
+          "cogs": 0,
+          "expenses": 3761.39,
+          "net_income": 1361.43
+        }
+      },
+      "bs": {
+        "assets": 350000,
+        "liabilities": 150336,
+        "equity": 199664,
+        "mortgages": 150336
+      },
+      "equity_sheet": {
+        "property_value": 350000,
+        "total_investment": 280000,
+        "mortgage": 150336,
+        "equity_cost_based": 129664,
+        "equity_value_based": 199664,
+        "your_equity_cost": 129664,
+        "your_equity_value": 199664
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 43.0,
+      "margins": {
+        "2022": 59.8,
+        "2023": 49.8,
+        "2024": 15.5,
+        "2025": 45.0,
+        "2026_ytd": 26.6
+      },
+      "dscr": 1.87,
+      "est_annual_debt_service": 12002.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "329 Blandin St Fort Worth",
+        "management": "A&N",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 114140.0,
+        "reno_cost": 165860.0,
+        "total_investment": 280000,
+        "cash_invested": 129664
+      },
+      "flags": [],
+      "revenue_pct": 1.7,
+      "coc_return": 17.4,
+      "roe_return": 11.3,
+      "noi_2025": 22504,
+      "cap_rate": 6.4
+    },
+    {
+      "name": "522 FLAMINGO LLC",
+      "realm_id": "9341454716533294",
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 27090.96,
+          "cogs": 0,
+          "expenses": 12436.33,
+          "net_income": 14654.63
+        },
+        "2026_ytd": {
+          "income": 6925.95,
+          "cogs": 0,
+          "expenses": 4308.0,
+          "net_income": 2617.95
+        }
+      },
+      "bs": {
+        "assets": 434000,
+        "liabilities": 285376,
+        "equity": 148624,
+        "mortgages": 285376
+      },
+      "equity_sheet": {
+        "property_value": 434000,
+        "total_investment": 402017,
+        "mortgage": 285376,
+        "equity_cost_based": 116641,
+        "equity_value_based": 148624,
+        "your_equity_cost": 116641,
+        "your_equity_value": 148624
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 65.8,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 54.1,
+        "2026_ytd": 37.8
+      },
+      "dscr": 0.64,
+      "est_annual_debt_service": 22783.0,
+      "distributions": {
+        "total_distributed": 1887.75,
+        "periods": [
+          {
+            "month": "October",
+            "amount": 1887.75
+          }
+        ]
+      },
+      "property_details": {
+        "address": "522 Flamingo Way, Duncanville, TX 75116",
+        "management": "A&N",
+        "loan_number": ""
+      },
+      "acquisition": {
+        "house_cost": 212100.0,
+        "reno_cost": 189917.0,
+        "total_investment": 402017.0,
+        "cash_invested": 116641.0
+      },
+      "flags": [
+        "Low DSCR"
+      ],
+      "revenue_pct": 0.9,
+      "coc_return": 12.6,
+      "roe_return": 9.9,
+      "noi_2025": 14655,
+      "cap_rate": 3.4
+    },
+    {
+      "name": "6509 LAKESHORE CT LLC",
+      "realm_id": "9341455137325084",
+      "nir_pct": 0,
+      "alexa_pct": 20.0,
+      "combined_pct": 20.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 35747.86,
+          "net_income": -35747.86
+        },
+        "2025": {
+          "income": 56052.14,
+          "cogs": 0,
+          "expenses": 59798.75,
+          "net_income": -3746.61
+        },
+        "2026_ytd": {
+          "income": 14501.77,
+          "cogs": 0,
+          "expenses": 13955.14,
+          "net_income": 546.63
+        }
+      },
+      "bs": {
+        "assets": 900000,
+        "liabilities": 345510,
+        "equity": 504490,
+        "mortgages": 345510
+      },
+      "equity_sheet": {
+        "property_value": 900000,
+        "total_investment": 749350,
+        "mortgage": 345510,
+        "equity_cost_based": 403840,
+        "equity_value_based": 554490,
+        "your_equity_cost": 80768,
+        "your_equity_value": 110898.0
+      },
+      "ownership_type": "alexa_direct",
+      "ltv": 38.4,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": -6.7,
+        "2026_ytd": 3.8
+      },
+      "dscr": null,
+      "est_annual_debt_service": 27584.0,
+      "distributions": {
+        "total_distributed": 12236.75,
+        "periods": [
+          {
+            "month": "December",
+            "amount": 12236.75
+          }
+        ]
+      },
+      "property_details": {
+        "address": "6509 Lakeshore Ct. Rowlett TX 75089",
+        "management": "Amir",
+        "loan_number": "O692127699"
+      },
+      "acquisition": {
+        "house_cost": 540350.0,
+        "reno_cost": 209000.0,
+        "total_investment": 749350.0,
+        "cash_invested": 403840.0
+      },
+      "flags": [
+        "Net Loss 2025"
+      ],
+      "revenue_pct": 1.9,
+      "coc_return": -0.9,
+      "roe_return": -0.7,
+      "noi_2025": -3747,
+      "cap_rate": -0.4
+    },
+    {
+      "name": "1443 Marlene LLC",
+      "realm_id": "9341454716575945",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 16.67,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 19606.01,
+          "cogs": 0,
+          "expenses": 8087.29,
+          "net_income": 11518.72
+        },
+        "2026_ytd": {
+          "income": 28882.07,
+          "cogs": 0,
+          "expenses": 12259.95,
+          "net_income": 16622.12
+        }
+      },
+      "bs": {
+        "assets": 650000,
+        "liabilities": 472500,
+        "equity": 177500,
+        "mortgages": 472500
+      },
+      "equity_sheet": {
+        "property_value": 650000,
+        "total_investment": 600000,
+        "mortgage": 472500,
+        "equity_cost_based": 127500,
+        "equity_value_based": 177500,
+        "your_equity_cost": 21250,
+        "your_equity_value": 29583
+      },
+      "ownership_type": "through_amp",
+      "ltv": 72.7,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 58.8,
+        "2026_ytd": 57.6
+      },
+      "dscr": 1.51,
+      "est_annual_debt_service": 37723.0,
+      "distributions": {
+        "total_distributed": 2666.666667,
+        "periods": [
+          {
+            "month": "October",
+            "amount": 2666.666667
+          }
+        ]
+      },
+      "property_details": {
+        "address": "1443 Marlene Pl, DeSoto, TX 75115",
+        "management": "AirBNB - Haim",
+        "loan_number": "O697514933"
+      },
+      "acquisition": {
+        "house_cost": 600000.0,
+        "reno_cost": 0,
+        "total_investment": 600000.0,
+        "cash_invested": 127500.0
+      },
+      "flags": [
+        "Recently Started"
+      ],
+      "revenue_pct": 0.7,
+      "coc_return": 9.0,
+      "roe_return": 6.5,
+      "noi_2025": 11519,
+      "cap_rate": 1.8
+    },
+    {
+      "name": "Westshore",
+      "realm_id": null,
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 20.0,
+      "pl": {},
+      "bs": {
+        "assets": 600000,
+        "liabilities": 224000,
+        "equity": 376000,
+        "mortgages": 224000
+      },
+      "equity_sheet": {
+        "property_value": 600000,
+        "total_investment": 445503,
+        "mortgage": 224000,
+        "equity_cost_based": 221503,
+        "equity_value_based": 376000,
+        "your_equity_cost": 44301,
+        "your_equity_value": 75200
+      },
+      "ownership_type": "through_amp",
+      "ltv": 37.3,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 17883.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 323000.0,
+        "reno_cost": 122503.0,
+        "total_investment": 445503.0,
+        "cash_invested": 221503.0
+      },
+      "flags": [],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "NAAMAN HOLDINGS LLC",
+      "realm_id": "9341453385811857",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 14.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 81306.54,
+          "cogs": 0,
+          "expenses": 17929.84,
+          "net_income": 63376.7
+        },
+        "2024": {
+          "income": 84732.31,
+          "cogs": 0,
+          "expenses": 12650.46,
+          "net_income": 72081.85
+        },
+        "2025": {
+          "income": 68043.65,
+          "cogs": 0,
+          "expenses": 31360.54,
+          "net_income": 36683.11
+        },
+        "2026_ytd": {
+          "income": 3955.47,
+          "cogs": 0,
+          "expenses": 2941.99,
+          "net_income": 1013.48
+        }
+      },
+      "bs": {
+        "assets": 600000,
+        "liabilities": 0,
+        "equity": 600000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 600000,
+        "total_investment": 573000,
+        "mortgage": 0,
+        "equity_cost_based": 573000,
+        "equity_value_based": 600000,
+        "your_equity_cost": 80220,
+        "your_equity_value": 84000
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": 77.9,
+        "2024": 85.1,
+        "2025": 53.9,
+        "2026_ytd": 25.6
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "3154 Darvany Dr, Dallas, TX"
+      },
+      "acquisition": {
+        "house_cost": 573000,
+        "reno_cost": 0,
+        "total_investment": 573000,
+        "cash_invested": 573000
+      },
+      "flags": [],
+      "revenue_pct": 2.3,
+      "coc_return": 6.4,
+      "roe_return": 6.1,
+      "noi_2025": 36683,
+      "cap_rate": 6.1
+    },
+    {
+      "name": "WHITNEY SNOW AND NAAMAN HOLDINGS LLC",
+      "realm_id": "9341454715878032",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 8.0,
+      "pl": {
+        "2022": {
+          "income": 43027.91,
+          "cogs": 0,
+          "expenses": 9537.42,
+          "net_income": 33490.49
+        },
+        "2023": {
+          "income": 35392.22,
+          "cogs": 0,
+          "expenses": 17463.98,
+          "net_income": 17928.24
+        },
+        "2024": {
+          "income": 25556.46,
+          "cogs": 0,
+          "expenses": 22247.05,
+          "net_income": 3309.41
+        },
+        "2025": {
+          "income": 57664.3,
+          "cogs": 0,
+          "expenses": 23049.95,
+          "net_income": 34614.35
+        },
+        "2026_ytd": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 1326.86,
+          "net_income": -1326.86
+        }
+      },
+      "bs": {
+        "assets": 600000,
+        "liabilities": 0,
+        "equity": 600000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 600000,
+        "total_investment": 590885,
+        "mortgage": 0,
+        "equity_cost_based": 590885,
+        "equity_value_based": 600000,
+        "your_equity_cost": 47271,
+        "your_equity_value": 48000
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": 77.8,
+        "2023": 50.7,
+        "2024": 12.9,
+        "2025": 60.0,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 321328,
+        "reno_cost": 269557,
+        "total_investment": 590885,
+        "cash_invested": 590885
+      },
+      "flags": [],
+      "revenue_pct": 1.9,
+      "coc_return": 5.9,
+      "roe_return": 5.8,
+      "noi_2025": 34614,
+      "cap_rate": 5.8
+    },
+    {
+      "name": "4207 Ashmont",
+      "realm_id": null,
+      "nir_pct": 100.0,
+      "alexa_pct": 0,
+      "combined_pct": 100.0,
+      "pl": {},
+      "bs": {
+        "assets": 1200000,
+        "liabilities": 608274,
+        "equity": 591726,
+        "mortgages": 608274
+      },
+      "equity_sheet": {
+        "property_value": 1200000,
+        "total_investment": 1070174,
+        "mortgage": 608274,
+        "equity_cost_based": 461900,
+        "equity_value_based": 591726,
+        "your_equity_cost": 461900,
+        "your_equity_value": 591726
+      },
+      "ownership_type": "nir_direct",
+      "ltv": 50.7,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 48562.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "4207 Ashmont Court Dallas TX",
+        "management": "A&N",
+        "loan_number": "2018085098",
+        "notes": "Guest house generates ~$1,300/mo rental income"
+      },
+      "acquisition": {
+        "house_cost": 837316.0,
+        "reno_cost": 232858.0,
+        "total_investment": 1070174.0,
+        "cash_invested": 461900.0
+      },
+      "flags": [
+        "Primary Residence"
+      ],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "125 VANDENBURG DRIVE LLC",
+      "realm_id": "9341456154424336",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 6.94,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 2977.41,
+          "cogs": 0,
+          "expenses": 60.75,
+          "net_income": 2916.66
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 0,
+        "equity": 250000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 224001,
+        "mortgage": 0,
+        "equity_cost_based": 224001,
+        "equity_value_based": 250000,
+        "your_equity_cost": 15546,
+        "your_equity_value": 17350
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": 98.0
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 122182.0,
+        "reno_cost": 101819.0,
+        "total_investment": 224001.0,
+        "cash_invested": 224001.0
+      },
+      "flags": [
+        "Recently Started"
+      ],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "518 S Elm LLC",
+      "realm_id": "9341456400100230",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 15.71,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 2805.53,
+          "net_income": -2805.53
+        }
+      },
+      "bs": {
+        "assets": 250000,
+        "liabilities": 0,
+        "equity": 250000,
+        "mortgages": 0
+      },
+      "equity_sheet": {
+        "property_value": 250000,
+        "total_investment": 211567,
+        "mortgage": 0,
+        "equity_cost_based": 211567,
+        "equity_value_based": 250000,
+        "your_equity_cost": 33237,
+        "your_equity_value": 39275
+      },
+      "ownership_type": "through_amp",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 143269.0,
+        "reno_cost": 68298.0,
+        "total_investment": 211567.0,
+        "cash_invested": 211567.0
+      },
+      "flags": [
+        "Under Renovation"
+      ],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "150 PR CLIFTON LLC",
+      "realm_id": "9341456324531996",
+      "nir_pct": 0,
+      "alexa_pct": 0,
+      "combined_pct": 16.0,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 11432.16,
+          "net_income": -11432.16
+        },
+        "2026_ytd": {
+          "income": 1290.91,
+          "cogs": 0,
+          "expenses": 9005.32,
+          "net_income": -10125.32
+        }
+      },
+      "bs": {
+        "assets": 650000,
+        "liabilities": 280000,
+        "equity": 370000,
+        "mortgages": 280000
+      },
+      "equity_sheet": {
+        "property_value": 900000,
+        "total_investment": 485607,
+        "mortgage": 280000,
+        "equity_cost_based": 205607,
+        "equity_value_based": 620000,
+        "your_equity_cost": 32897,
+        "your_equity_value": 99200
+      },
+      "ownership_type": "through_amp",
+      "ltv": 31.1,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": -784.4
+      },
+      "dscr": null,
+      "est_annual_debt_service": 22354.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 342799.0,
+        "reno_cost": 142808.0,
+        "total_investment": 485607.0,
+        "cash_invested": 205607.0
+      },
+      "flags": [
+        "Recently Started"
+      ],
+      "revenue_pct": 0,
+      "coc_return": -5.6,
+      "roe_return": -3.1,
+      "noi_2025": -11432,
+      "cap_rate": -1.8
+    },
+    {
+      "name": "AMP LIVE GROUP LLC",
+      "realm_id": "9130346649468596",
+      "nir_pct": 50,
+      "alexa_pct": 50,
+      "combined_pct": 100,
+      "pl": {
+        "2022": {
+          "income": 1733118.58,
+          "cogs": 1234025.61,
+          "expenses": 357589.44,
+          "net_income": 141503.53
+        },
+        "2023": {
+          "income": 1640600.5,
+          "cogs": 1396405.6,
+          "expenses": 205790.15,
+          "net_income": 45509.75
+        },
+        "2024": {
+          "income": 1795097.72,
+          "cogs": 1487345.51,
+          "expenses": 373515.84,
+          "net_income": -61946.93
+        },
+        "2025": {
+          "income": 1850627.12,
+          "cogs": 1558065.78,
+          "expenses": 321488.53,
+          "net_income": -3173.19
+        },
+        "2026_ytd": {
+          "income": 536506.22,
+          "cogs": 547739.31,
+          "expenses": 137697.96,
+          "net_income": -150830.33
+        }
+      },
+      "bs": {
+        "assets": 868631.41,
+        "liabilities": 746728.25,
+        "equity": 121903.16000000003,
+        "mortgages": 602217.77
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "ltv": 69.3,
+      "margins": {
+        "2022": 8.2,
+        "2023": 2.8,
+        "2024": -3.5,
+        "2025": -0.2,
+        "2026_ytd": -28.1
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {},
+      "flags": [
+        "Net Loss 2025"
+      ],
+      "revenue_pct": 62.4,
+      "cap_rate": null,
+      "noi_2025": -3173
+    },
+    {
+      "name": "SBN PRIVATE HOLDING",
+      "realm_id": "9130346751696396",
+      "nir_pct": 50,
+      "alexa_pct": 50,
+      "combined_pct": 100,
+      "pl": {
+        "2022": {
+          "income": 330482.56,
+          "cogs": 0,
+          "expenses": 204713.3,
+          "net_income": 125769.26
+        },
+        "2023": {
+          "income": 369808.43,
+          "cogs": 0,
+          "expenses": 254541.96,
+          "net_income": 115266.47
+        },
+        "2024": {
+          "income": 102927.23,
+          "cogs": 0,
+          "expenses": 93921.23,
+          "net_income": 9006.0
+        },
+        "2025": {
+          "income": 173449.14,
+          "cogs": 0,
+          "expenses": 56505.15,
+          "net_income": 116943.99
+        },
+        "2026_ytd": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        }
+      },
+      "bs": {
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0,
+        "mortgages": 0
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "_note": "Operating entity - real equity is in property LLCs",
+      "ltv": 0,
+      "margins": {
+        "2022": 38.1,
+        "2023": 31.2,
+        "2024": 8.7,
+        "2025": 67.4,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {},
+      "flags": [],
+      "revenue_pct": 5.8,
+      "cap_rate": null,
+      "noi_2025": 116944
+    },
+    {
+      "name": "AMP Live Properties LLC",
+      "realm_id": "9130346751697436",
+      "nir_pct": 50,
+      "alexa_pct": 50,
+      "combined_pct": 100,
+      "pl": {
+        "2022": {
+          "income": 1010495.89,
+          "cogs": 108.24,
+          "expenses": 937940.03,
+          "net_income": 72447.62
+        },
+        "2023": {
+          "income": 3390.45,
+          "cogs": 0,
+          "expenses": 27542.11,
+          "net_income": -24151.66
+        },
+        "2024": {
+          "income": 1251.61,
+          "cogs": 0,
+          "expenses": 18488.84,
+          "net_income": -17237.23
+        },
+        "2025": {
+          "income": 157135.6,
+          "cogs": 0,
+          "expenses": 125086.47,
+          "net_income": 32039.03
+        },
+        "2026_ytd": {
+          "income": 55106.76,
+          "cogs": 0,
+          "expenses": 46949.58,
+          "net_income": 8153.18
+        }
+      },
+      "bs": {
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0,
+        "mortgages": 0
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "_note": "Operating entity - real equity is in property LLCs",
+      "ltv": 0,
+      "margins": {
+        "2022": 7.2,
+        "2023": -712.3,
+        "2024": -1377.2,
+        "2025": 20.4,
+        "2026_ytd": 14.8
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {
+        "house_cost": 28335.0,
+        "reno_cost": 76915.0,
+        "total_investment": 0.0
+      },
+      "flags": [],
+      "revenue_pct": 5.3,
+      "cap_rate": null,
+      "noi_2025": 32039
+    },
+    {
+      "name": "CAPLEX EQUITY LLC",
+      "realm_id": "9341456366845957",
+      "nir_pct": 100,
+      "alexa_pct": 0,
+      "combined_pct": 100,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        }
+      },
+      "bs": {
+        "assets": 1830.13,
+        "liabilities": 0.0,
+        "equity": 1830.13,
+        "mortgages": 0
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {},
+      "flags": [],
+      "revenue_pct": 0,
+      "cap_rate": null,
+      "noi_2025": null
+    },
+    {
+      "name": "FIXORY MAINTENANCE LLC",
+      "realm_id": "9341456024972330",
+      "nir_pct": 50,
+      "alexa_pct": 50,
+      "combined_pct": 100,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 40841.43,
+          "cogs": 41856.45,
+          "expenses": 1451.8,
+          "net_income": -2466.82
+        }
+      },
+      "bs": {
+        "assets": 27388.61,
+        "liabilities": 9695.67,
+        "equity": 17692.940000000002,
+        "mortgages": 0
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "ltv": 0,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": -6.0
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {},
+      "flags": [],
+      "revenue_pct": 0,
+      "cap_rate": null,
+      "noi_2025": null
+    },
+    {
+      "name": "HAR-EVAN LLC",
+      "realm_id": "9341456400346052",
+      "nir_pct": 33,
+      "alexa_pct": 0,
+      "combined_pct": 33,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2026_ytd": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        }
+      },
+      "bs": {
+        "assets": 700000,
+        "liabilities": 205000,
+        "equity": 295000,
+        "mortgages": 205000
+      },
+      "equity_sheet": {
+        "property_value": 700000,
+        "total_investment": 436170,
+        "mortgage": 205000,
+        "equity_cost_based": 295000,
+        "equity_value_based": 495000,
+        "your_equity_cost": 97350.0,
+        "your_equity_value": 163350.0
+      },
+      "ownership_type": "through_amp",
+      "_note": "2 properties: 909 E Harvey (6 units) + 2265 Evans (5 units), Fort Worth. Under renovation. $205K owner-finance loan at 3%. ARV post-reno: ~$1.37M. Conservative current value used.",
+      "ltv": 29.3,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": null
+      },
+      "dscr": null,
+      "est_annual_debt_service": 16366.0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {
+        "address": "2265 Evans Ave + 909 E Harvey Ave, Fort Worth, TX"
+      },
+      "acquisition": {
+        "house_cost": 436170,
+        "reno_cost": 0,
+        "total_investment": 436170,
+        "cash_invested": 231170
+      },
+      "flags": [
+        "Under Renovation"
+      ],
+      "revenue_pct": 0,
+      "coc_return": null,
+      "roe_return": null,
+      "noi_2025": null,
+      "cap_rate": null
+    },
+    {
+      "name": "BAIGEL HOUSING LLC",
+      "realm_id": "9341456334967317",
+      "nir_pct": 15,
+      "alexa_pct": 0,
+      "combined_pct": 15,
+      "pl": {
+        "2022": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2023": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2024": {
+          "income": 0,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 0
+        },
+        "2025": {
+          "income": 0.0,
+          "cogs": 0,
+          "expenses": 1000.26,
+          "net_income": -1000.26
+        },
+        "2026_ytd": {
+          "income": 5286.44,
+          "cogs": 0,
+          "expenses": 2890.66,
+          "net_income": 2395.78
+        }
+      },
+      "bs": {
+        "assets": 491284.58,
+        "liabilities": 224000.0,
+        "equity": 267284.58,
+        "mortgages": 224000.0
+      },
+      "equity_sheet": null,
+      "ownership_type": "operating",
+      "ltv": 45.6,
+      "margins": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026_ytd": 45.3
+      },
+      "dscr": null,
+      "est_annual_debt_service": 0,
+      "distributions": {
+        "total_distributed": 0,
+        "periods": []
+      },
+      "property_details": {},
+      "acquisition": {},
+      "flags": [
+        "Net Loss 2025"
+      ],
+      "revenue_pct": 0,
+      "cap_rate": null,
+      "noi_2025": -1000
+    }
+  ],
+  "summary": {
+    "total_properties": 24,
+    "total_property_value": 14104000,
+    "total_mortgage": 5099608,
+    "total_equity_value_based": 3240063,
+    "total_equity_cost_based": 2191534,
+    "valuation_method": "property_value_conservative",
+    "data_source": "Equity Value End 2025 Google Sheet + QuickBooks P&L",
+    "total_mortgages": 5070094,
+    "total_net_equity": 9033906,
+    "your_net_equity": 3737927.0
+  },
+  "net_worth_trend": {
+    "2025": 3829446.0,
+    "2026_ytd": 3407623.0,
+    "2024": 3202617.0,
+    "2023": 3165531.0,
+    "2022": 2861010.0
+  },
+  "total_revenue_2025": 2966637.0
+}
