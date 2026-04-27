@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-18 02:07:14",
+  "pulled_at": "2026-04-27 18:42:03",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -22,19 +22,19 @@
         },
         "2024": {
           "income": 121269.06,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 40859.95,
           "net_income": 80409.11
         },
         "2025": {
           "income": 107174.85,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 24951.21,
           "net_income": 82223.64
         },
         "2026_ytd": {
           "income": 18000.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 3862.03,
           "net_income": 14137.97
         }
@@ -43,7 +43,10 @@
         "assets": 1300000,
         "liabilities": 497400,
         "equity": 802600,
-        "mortgages": 497400
+        "mortgages": 497400,
+        "total_assets": 771718.41,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 1300000,
@@ -108,19 +111,19 @@
         },
         "2024": {
           "income": 34006.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 16534.46,
           "net_income": 17492.09
         },
         "2025": {
           "income": 42409.5,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 19746.68,
           "net_income": 22668.73
         },
         "2026_ytd": {
           "income": 9619.09,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 1159.94,
           "net_income": 8459.15
         }
@@ -129,7 +132,10 @@
         "assets": 350000,
         "liabilities": 0,
         "equity": 350000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 311994.53,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 350000,
@@ -199,19 +205,19 @@
         },
         "2024": {
           "income": 20020.99,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 14742.4,
           "net_income": 5278.59
         },
         "2025": {
           "income": 33356.56,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 8292.4,
           "net_income": 25064.16
         },
         "2026_ytd": {
           "income": 7312.03,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 1260.91,
           "net_income": 6051.12
         }
@@ -220,7 +226,10 @@
         "assets": 250000,
         "liabilities": 95211,
         "equity": 154789,
-        "mortgages": 95211
+        "mortgages": 95211,
+        "total_assets": 173124.02,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -285,19 +294,19 @@
         },
         "2024": {
           "income": 26327.62,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 12293.6,
           "net_income": 14036.56
         },
         "2025": {
           "income": 32519.2,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 14222.36,
           "net_income": 18296.84
         },
         "2026_ytd": {
           "income": 6862.71,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 5481.44,
           "net_income": 1381.27
         }
@@ -306,7 +315,10 @@
         "assets": 250000,
         "liabilities": 0,
         "equity": 250000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 181719.13,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -392,28 +404,31 @@
         },
         "2024": {
           "income": 20055.11,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 2176.73,
           "net_income": 17878.38
         },
         "2025": {
           "income": 11184.19,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 7646.66,
           "net_income": 3537.53
         },
         "2026_ytd": {
-          "income": 5279.59,
-          "cogs": 0,
-          "expenses": 5976.05,
-          "net_income": -696.46
+          "income": 7096.39,
+          "cogs": 0.0,
+          "expenses": 6016.56,
+          "net_income": 1079.83
         }
       },
       "bs": {
         "assets": 250000,
         "liabilities": 0,
         "equity": 250000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 302706.24,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -534,28 +549,31 @@
         },
         "2024": {
           "income": 28973.29,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 8172.2,
           "net_income": 20801.09
         },
         "2025": {
           "income": 49949.78,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 21306.62,
           "net_income": 28643.16
         },
         "2026_ytd": {
-          "income": 14478.99,
-          "cogs": 0,
+          "income": 19423.99,
+          "cogs": 0.0,
           "expenses": 10405.3,
-          "net_income": 4073.69
+          "net_income": 9018.69
         }
       },
       "bs": {
         "assets": 500000,
         "liabilities": 0,
         "equity": 500000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 409261.79,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 500000,
@@ -625,19 +643,19 @@
         },
         "2024": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": -497.44,
           "net_income": 497.44
         },
         "2025": {
           "income": 34671.12,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 23439.21,
           "net_income": 11231.91
         },
         "2026_ytd": {
           "income": 9047.97,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 143916.67,
           "net_income": -62416.44
         }
@@ -646,7 +664,10 @@
         "assets": 600000,
         "liabilities": 420000,
         "equity": 180000,
-        "mortgages": 420000
+        "mortgages": 420000,
+        "total_assets": 556395.47,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 600000,
@@ -722,19 +743,19 @@
         },
         "2024": {
           "income": 3120.06,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 769.67,
           "net_income": 2940.13
         },
         "2025": {
           "income": 54006.42,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 35920.14,
           "net_income": 18086.28
         },
         "2026_ytd": {
           "income": 602.05,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 3946.16,
           "net_income": -3344.11
         }
@@ -743,7 +764,10 @@
         "assets": 520000,
         "liabilities": 345281,
         "equity": 174719,
-        "mortgages": 345281
+        "mortgages": 345281,
+        "total_assets": 420405.85,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 520000,
@@ -809,20 +833,20 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 20.25,
           "net_income": -20.25
         }
@@ -831,7 +855,10 @@
         "assets": 250000,
         "liabilities": 0,
         "equity": 250000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 1717.25,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -894,19 +921,19 @@
         },
         "2024": {
           "income": 34337.83,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 21868.08,
           "net_income": 12469.75
         },
         "2025": {
           "income": 54569.23,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 40995.18,
           "net_income": 13574.05
         },
         "2026_ytd": {
           "income": 7601.62,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 5127.08,
           "net_income": -23.82
         }
@@ -915,7 +942,10 @@
         "assets": 400000,
         "liabilities": 170000,
         "equity": 230000,
-        "mortgages": 170000
+        "mortgages": 170000,
+        "total_assets": 246793.13,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 400000,
@@ -980,19 +1010,19 @@
         },
         "2024": {
           "income": 59440.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 53613.88,
           "net_income": 5826.12
         },
         "2025": {
           "income": 61920.37,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 47279.07,
           "net_income": 14641.3
         },
         "2026_ytd": {
           "income": 16220.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 7050.48,
           "net_income": 9169.52
         }
@@ -1001,7 +1031,10 @@
         "assets": 700000,
         "liabilities": 541206,
         "equity": 158794,
-        "mortgages": 541206
+        "mortgages": 541206,
+        "total_assets": 836609.49,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 750000,
@@ -1065,28 +1098,31 @@
         },
         "2024": {
           "income": 30690.44,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 46242.69,
           "net_income": -15552.25
         },
         "2025": {
           "income": 25150.3,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 49857.54,
           "net_income": -24707.24
         },
         "2026_ytd": {
           "income": 11736.96,
-          "cogs": 0,
-          "expenses": 4878.87,
-          "net_income": 6858.09
+          "cogs": 0.0,
+          "expenses": 5421.01,
+          "net_income": 6315.95
         }
       },
       "bs": {
         "assets": 700000,
         "liabilities": 664514,
         "equity": 35486,
-        "mortgages": 430000
+        "mortgages": 430000,
+        "total_assets": 733169.42,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 700000,
@@ -1154,28 +1190,31 @@
         },
         "2024": {
           "income": 29355.54,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 24812.17,
           "net_income": 4543.37
         },
         "2025": {
           "income": 50056.82,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 27552.69,
           "net_income": 22504.13
         },
         "2026_ytd": {
           "income": 5122.82,
-          "cogs": 0,
-          "expenses": 3761.39,
-          "net_income": 1361.43
+          "cogs": 0.0,
+          "expenses": 3852.68,
+          "net_income": 1270.14
         }
       },
       "bs": {
         "assets": 350000,
         "liabilities": 150336,
         "equity": 199664,
-        "mortgages": 150336
+        "mortgages": 150336,
+        "total_assets": 189963.82,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 350000,
@@ -1239,20 +1278,20 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
           "income": 27090.96,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 12436.33,
           "net_income": 14654.63
         },
         "2026_ytd": {
           "income": 6925.95,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 4308.0,
           "net_income": 2617.95
         }
@@ -1261,7 +1300,10 @@
         "assets": 434000,
         "liabilities": 285376,
         "equity": 148624,
-        "mortgages": 285376
+        "mortgages": 285376,
+        "total_assets": 441208.36,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 434000,
@@ -1333,28 +1375,31 @@
         },
         "2024": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 35747.86,
           "net_income": -35747.86
         },
         "2025": {
           "income": 56052.14,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 59798.75,
           "net_income": -3746.61
         },
         "2026_ytd": {
           "income": 14501.77,
-          "cogs": 0,
-          "expenses": 13955.14,
-          "net_income": 546.63
+          "cogs": 0.0,
+          "expenses": 15073.37,
+          "net_income": -571.6
         }
       },
       "bs": {
         "assets": 900000,
         "liabilities": 345510,
         "equity": 504490,
-        "mortgages": 345510
+        "mortgages": 345510,
+        "total_assets": 801312.77,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 900000,
@@ -1425,20 +1470,20 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
           "income": 19606.01,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 8087.29,
           "net_income": 11518.72
         },
         "2026_ytd": {
           "income": 28882.07,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 12259.95,
           "net_income": 16622.12
         }
@@ -1447,7 +1492,10 @@
         "assets": 650000,
         "liabilities": 472500,
         "equity": 177500,
-        "mortgages": 472500
+        "mortgages": 472500,
+        "total_assets": 657157.3,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 650000,
@@ -1570,19 +1618,19 @@
         },
         "2024": {
           "income": 84732.31,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 12650.46,
           "net_income": 72081.85
         },
         "2025": {
           "income": 68043.65,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 31360.54,
           "net_income": 36683.11
         },
         "2026_ytd": {
           "income": 3955.47,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 2941.99,
           "net_income": 1013.48
         }
@@ -1591,7 +1639,10 @@
         "assets": 600000,
         "liabilities": 0,
         "equity": 600000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 584912.3,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 600000,
@@ -1654,19 +1705,19 @@
         },
         "2024": {
           "income": 25556.46,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 22247.05,
           "net_income": 3309.41
         },
         "2025": {
           "income": 57664.3,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 23049.95,
           "net_income": 34614.35
         },
         "2026_ytd": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 1326.86,
           "net_income": -1326.86
         }
@@ -1675,7 +1726,10 @@
         "assets": 600000,
         "liabilities": 0,
         "equity": 600000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 645952.96,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 600000,
@@ -1793,20 +1847,20 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
           "income": 2977.41,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 60.75,
           "net_income": 2916.66
         }
@@ -1815,7 +1869,10 @@
         "assets": 250000,
         "liabilities": 0,
         "equity": 250000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 215785.66,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -1877,20 +1934,20 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 2805.53,
           "net_income": -2805.53
         }
@@ -1899,7 +1956,10 @@
         "assets": 250000,
         "liabilities": 0,
         "equity": 250000,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 227980.71,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 250000,
@@ -1961,29 +2021,32 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 11432.16,
           "net_income": -11432.16
         },
         "2026_ytd": {
-          "income": 1290.91,
-          "cogs": 0,
-          "expenses": 9005.32,
-          "net_income": -10125.32
+          "income": 2404.18,
+          "cogs": 0.0,
+          "expenses": 10185.81,
+          "net_income": -10192.54
         }
       },
       "bs": {
         "assets": 650000,
         "liabilities": 280000,
         "equity": 370000,
-        "mortgages": 280000
+        "mortgages": 280000,
+        "total_assets": 156449.96,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 900000,
@@ -2057,17 +2120,20 @@
           "net_income": -3173.19
         },
         "2026_ytd": {
-          "income": 536506.22,
-          "cogs": 547739.31,
-          "expenses": 137697.96,
-          "net_income": -150830.33
+          "income": 524982.49,
+          "cogs": 564012.47,
+          "expenses": 142163.47,
+          "net_income": -183092.73
         }
       },
       "bs": {
         "assets": 868631.41,
         "liabilities": 746728.25,
         "equity": 121903.16000000003,
-        "mortgages": 602217.77
+        "mortgages": 602217.77,
+        "total_assets": 845746.34,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2115,28 +2181,31 @@
         },
         "2024": {
           "income": 102927.23,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 93921.23,
           "net_income": 9006.0
         },
         "2025": {
           "income": 173449.14,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 56505.15,
           "net_income": 116943.99
         },
         "2026_ytd": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         }
       },
       "bs": {
         "assets": 0,
         "liabilities": 0,
         "equity": 0,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 569379.16,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2183,28 +2252,31 @@
         },
         "2024": {
           "income": 1251.61,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 18488.84,
           "net_income": -17237.23
         },
         "2025": {
           "income": 157135.6,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 125086.47,
           "net_income": 32039.03
         },
         "2026_ytd": {
           "income": 55106.76,
-          "cogs": 0,
-          "expenses": 46949.58,
-          "net_income": 8153.18
+          "cogs": 0.0,
+          "expenses": 47113.18,
+          "net_income": 7989.58
         }
       },
       "bs": {
         "assets": 0,
         "liabilities": 0,
         "equity": 0,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 157279.04,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2254,29 +2326,32 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         }
       },
       "bs": {
         "assets": 1830.13,
         "liabilities": 0.0,
         "equity": 1830.13,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 1830.13,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2321,16 +2396,16 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
           "income": 40841.43,
@@ -2343,7 +2418,10 @@
         "assets": 27388.61,
         "liabilities": 9695.67,
         "equity": 17692.940000000002,
-        "mortgages": 0
+        "mortgages": 0,
+        "total_assets": 55861.28,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2388,29 +2466,32 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2026_ytd": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         }
       },
       "bs": {
         "assets": 700000,
         "liabilities": 205000,
         "equity": 295000,
-        "mortgages": 205000
+        "mortgages": 205000,
+        "total_assets": 0.0,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 700000,
@@ -2475,29 +2556,32 @@
           "net_income": 0
         },
         "2024": {
-          "income": 0,
-          "cogs": 0,
-          "expenses": 0,
-          "net_income": 0
+          "income": 0.0,
+          "cogs": 0.0,
+          "expenses": 0.0,
+          "net_income": 0.0
         },
         "2025": {
           "income": 0.0,
-          "cogs": 0,
+          "cogs": 0.0,
           "expenses": 1000.26,
           "net_income": -1000.26
         },
         "2026_ytd": {
           "income": 5286.44,
-          "cogs": 0,
-          "expenses": 2890.66,
-          "net_income": 2395.78
+          "cogs": 0.0,
+          "expenses": 2958.33,
+          "net_income": 2328.11
         }
       },
       "bs": {
         "assets": 491284.58,
         "liabilities": 224000.0,
         "equity": 267284.58,
-        "mortgages": 224000.0
+        "mortgages": 224000.0,
+        "total_assets": 491216.91,
+        "total_liabilities": 0.0,
+        "total_equity": 0.0
       },
       "equity_sheet": null,
       "ownership_type": "operating",
@@ -2544,5 +2628,5 @@
     "2023": 3165531.0,
     "2022": 2861010.0
   },
-  "total_revenue_2025": 2966637.0
+  "total_revenue_2025": 2966637.2600000002
 }
