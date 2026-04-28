@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-28 22:50:06",
+  "pulled_at": "2026-04-28 22:51:56",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -1838,22 +1838,22 @@
         }
       },
       "bs": {
-        "assets": 750000,
+        "assets": 850000,
         "liabilities": 0,
-        "equity": 750000,
+        "equity": 850000,
         "mortgages": 0,
         "total_assets": 645952.96,
         "total_liabilities": 0.0,
         "total_equity": 0.0
       },
       "equity_sheet": {
-        "property_value": 750000,
+        "property_value": 850000,
         "total_investment": 590885,
         "mortgage": 0,
         "equity_cost_based": 590885,
-        "equity_value_based": 750000,
+        "equity_value_based": 850000,
         "your_equity_cost": 47271,
-        "your_equity_value": 60000
+        "your_equity_value": 68000
       },
       "ownership_type": "through_amp",
       "ltv": 0,
@@ -1895,7 +1895,7 @@
       "proj_2026_revenue": 0.0,
       "total_cost": 590885,
       "coc_return_avg": 1.9,
-      "roe_return_avg": 1.5
+      "roe_return_avg": 1.3
     },
     {
       "name": "4207 Ashmont",
@@ -2819,15 +2819,15 @@
   ],
   "summary": {
     "total_properties": 24,
-    "total_property_value": 14254000,
+    "total_property_value": 14354000,
     "total_mortgage": 5327012,
-    "total_equity_value_based": 8926988,
+    "total_equity_value_based": 9026988,
     "total_equity_cost_based": 2191534,
     "valuation_method": "property_value_conservative",
     "data_source": "Equity Value End 2025 Google Sheet + QuickBooks P&L",
     "total_mortgages": 5327012,
-    "total_net_equity": 8926988,
-    "your_net_equity": 3708820.0,
+    "total_net_equity": 9026988,
+    "your_net_equity": 3716820.0,
     "avg_annual_revenue": 2815316.47
   },
   "net_worth_trend": {
