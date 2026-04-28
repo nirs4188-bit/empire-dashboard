@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-28 22:31:36",
+  "pulled_at": "2026-04-28 22:49:00",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -1838,22 +1838,22 @@
         }
       },
       "bs": {
-        "assets": 2400000,
+        "assets": 750000,
         "liabilities": 0,
-        "equity": 2400000,
+        "equity": 750000,
         "mortgages": 0,
         "total_assets": 645952.96,
         "total_liabilities": 0.0,
         "total_equity": 0.0
       },
       "equity_sheet": {
-        "property_value": 2400000,
+        "property_value": 750000,
         "total_investment": 590885,
         "mortgage": 0,
         "equity_cost_based": 590885,
-        "equity_value_based": 2400000,
+        "equity_value_based": 750000,
         "your_equity_cost": 47271,
-        "your_equity_value": 192000
+        "your_equity_value": 60000
       },
       "ownership_type": "through_amp",
       "ltv": 0,
@@ -1871,8 +1871,12 @@
         "periods": []
       },
       "property_details": {
-        "address": "Whitney, TX (6 properties)",
-        "notes": "Multi-property LLC: 102 S San Marcos, 231 S Colorado, 2365 SH 22, 316 Bush, 408 W Washington, 415 S Colorado"
+        "address": "Whitney, TX (6 properties / 10 units)",
+        "notes": "102 S San Marcos (SFR), 2365 SH 22 (triplex A/B/C), 316 Bush (duplex A/B), 408 W Washington (SFR), 415 S Colorado (duplex front/back), 231 S Colorado (vacant \u2014 needs reno). Gross monthly rent $7,400; annualized $88,800.",
+        "monthly_gross_rent": 7400,
+        "annual_gross_rent": 88800,
+        "occupied_units": 8,
+        "total_units": 10
       },
       "acquisition": {
         "house_cost": 321328,
@@ -1891,7 +1895,7 @@
       "proj_2026_revenue": 0.0,
       "total_cost": 590885,
       "coc_return_avg": 1.9,
-      "roe_return_avg": 0.5
+      "roe_return_avg": 1.5
     },
     {
       "name": "4207 Ashmont",
@@ -2815,15 +2819,15 @@
   ],
   "summary": {
     "total_properties": 24,
-    "total_property_value": 15904000,
+    "total_property_value": 14254000,
     "total_mortgage": 5327012,
-    "total_equity_value_based": 10576988,
+    "total_equity_value_based": 8926988,
     "total_equity_cost_based": 2191534,
     "valuation_method": "property_value_conservative",
     "data_source": "Equity Value End 2025 Google Sheet + QuickBooks P&L",
     "total_mortgages": 5327012,
-    "total_net_equity": 10576988,
-    "your_net_equity": 3840820.0,
+    "total_net_equity": 8926988,
+    "your_net_equity": 3708820.0,
     "avg_annual_revenue": 2815316.47
   },
   "net_worth_trend": {
