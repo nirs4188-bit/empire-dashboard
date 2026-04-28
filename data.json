@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-28 22:49:00",
+  "pulled_at": "2026-04-28 22:50:06",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -1872,10 +1872,10 @@
       },
       "property_details": {
         "address": "Whitney, TX (6 properties / 10 units)",
-        "notes": "102 S San Marcos (SFR), 2365 SH 22 (triplex A/B/C), 316 Bush (duplex A/B), 408 W Washington (SFR), 415 S Colorado (duplex front/back), 231 S Colorado (vacant \u2014 needs reno). Gross monthly rent $7,400; annualized $88,800.",
-        "monthly_gross_rent": 7400,
-        "annual_gross_rent": 88800,
-        "occupied_units": 8,
+        "notes": "102 S San Marcos (SFR $1,050), 2365 SH 22 triplex (A $850, B $1,050, C $900), 316 Bush duplex (A $970, B $650), 408 W Washington (SFR $1,030), 415 S Colorado duplex (Front $900, Back $900), 231 S Colorado (vacant \u2014 needs reno). Gross monthly rent $8,300; annualized $99,600.",
+        "monthly_gross_rent": 8300,
+        "annual_gross_rent": 99600,
+        "occupied_units": 9,
         "total_units": 10
       },
       "acquisition": {
