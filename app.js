@@ -600,7 +600,15 @@ function renderProperties(data) {
         ${totalInvest > 0 ? `
         <div class="prop-foot">
           <div>
-            <span class="lbl">Acquisition + CapEx</span>
+            <span class="lbl">Purchase</span>
+            <span class="val">${fmtMoney(acq.house_cost || 0, true)}</span>
+          </div>
+          <div>
+            <span class="lbl">CapEx</span>
+            <span class="val">${fmtMoney(acq.reno_cost || 0, true)}</span>
+          </div>
+          <div>
+            <span class="lbl">Total Cost</span>
             <span class="val">${fmtMoney(totalInvest, true)}</span>
           </div>
           <div>
