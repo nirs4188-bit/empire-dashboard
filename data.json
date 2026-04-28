@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-27 18:42:03",
+  "pulled_at": "2026-04-28 22:31:36",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -88,7 +88,13 @@
       "coc_return": 35.0,
       "roe_return": 10.2,
       "noi_2025": 82224,
-      "cap_rate": 6.3
+      "cap_rate": 6.3,
+      "avg_annual_revenue": 94865.92,
+      "avg_annual_ni": 68912.79,
+      "proj_2026_revenue": 56153.85,
+      "total_cost": 732600.0,
+      "coc_return_avg": 29.3,
+      "roe_return_avg": 8.6
     },
     {
       "name": "711 S Houston LLC",
@@ -182,7 +188,13 @@
       "coc_return": 7.4,
       "roe_return": 6.5,
       "noi_2025": 22669,
-      "cap_rate": 6.5
+      "cap_rate": 6.5,
+      "avg_annual_revenue": 35474.59,
+      "avg_annual_ni": 22183.49,
+      "proj_2026_revenue": 30008.27,
+      "total_cost": 306829.0,
+      "coc_return_avg": 7.2,
+      "roe_return_avg": 6.3
     },
     {
       "name": "1712 Fagan Drive LLC",
@@ -271,7 +283,13 @@
       "coc_return": 39.5,
       "roe_return": 16.2,
       "noi_2025": 25064,
-      "cap_rate": 10.0
+      "cap_rate": 10.0,
+      "avg_annual_revenue": 25396.19,
+      "avg_annual_ni": 16406.73,
+      "proj_2026_revenue": 22811.03,
+      "total_cost": 158708.0,
+      "coc_return_avg": 25.8,
+      "roe_return_avg": 10.6
     },
     {
       "name": "397 Willis Point LLC",
@@ -381,7 +399,13 @@
       "coc_return": 10.1,
       "roe_return": 7.3,
       "noi_2025": 18297,
-      "cap_rate": 7.3
+      "cap_rate": 7.3,
+      "avg_annual_revenue": 26752.04,
+      "avg_annual_ni": 12214.16,
+      "proj_2026_revenue": 21409.31,
+      "total_cost": 181715.0,
+      "coc_return_avg": 6.7,
+      "roe_return_avg": 4.9
     },
     {
       "name": "713 Sam Rayburn LLC",
@@ -466,7 +490,13 @@
       "coc_return": 1.2,
       "roe_return": 1.4,
       "noi_2025": 3538,
-      "cap_rate": 1.4
+      "cap_rate": 1.4,
+      "avg_annual_revenue": 17792.54,
+      "avg_annual_ni": 8261.54,
+      "proj_2026_revenue": 22138.31,
+      "total_cost": 294900.0,
+      "coc_return_avg": 2.8,
+      "roe_return_avg": 3.3
     },
     {
       "name": "2155 Hickory LLC",
@@ -526,7 +556,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 0,
+      "avg_annual_ni": 0,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 438806.0,
+      "coc_return_avg": 0.0,
+      "roe_return_avg": 0.0
     },
     {
       "name": "2722 E Vickery LLC",
@@ -620,7 +656,13 @@
       "coc_return": 6.7,
       "roe_return": 5.7,
       "noi_2025": 28643,
-      "cap_rate": 5.7
+      "cap_rate": 5.7,
+      "avg_annual_revenue": 46506.43,
+      "avg_annual_ni": 25859.83,
+      "proj_2026_revenue": 60596.21,
+      "total_cost": 425893.0,
+      "coc_return_avg": 6.1,
+      "roe_return_avg": 5.2
     },
     {
       "name": "3645 Travis LLC",
@@ -671,11 +713,11 @@
       },
       "equity_sheet": {
         "property_value": 600000,
-        "total_investment": 509118,
+        "total_investment": 539353,
         "mortgage": 420000,
-        "equity_cost_based": 89118,
+        "equity_cost_based": 119353,
         "equity_value_based": 180000,
-        "your_equity_cost": 12477,
+        "your_equity_cost": 16709,
         "your_equity_value": 25200
       },
       "ownership_type": "through_amp",
@@ -705,13 +747,14 @@
       "property_details": {
         "address": "3645 Travis Av Fort Worth",
         "management": "A&N",
-        "loan_number": ""
+        "loan_number": "",
+        "notes": "Land parcel sold separately \u2014 operating PL only reflects rental ops"
       },
       "acquisition": {
-        "house_cost": 363673.0,
-        "reno_cost": 145445.0,
-        "total_investment": 509118.0,
-        "cash_invested": 89118.0
+        "house_cost": 360000.0,
+        "reno_cost": 179353.0,
+        "total_investment": 539353.0,
+        "cash_invested": 119353.0
       },
       "flags": [
         "Low DSCR"
@@ -720,7 +763,13 @@
       "coc_return": 12.6,
       "roe_return": 6.2,
       "noi_2025": 11232,
-      "cap_rate": 1.9
+      "cap_rate": 1.9,
+      "avg_annual_revenue": 20965.9,
+      "avg_annual_ni": -60996.2,
+      "proj_2026_revenue": 28226.57,
+      "total_cost": 539353.0,
+      "coc_return_avg": -51.1,
+      "roe_return_avg": -33.9
     },
     {
       "name": "260 McGraw LLC",
@@ -811,7 +860,13 @@
       "coc_return": 17.1,
       "roe_return": 10.4,
       "noi_2025": 18086,
-      "cap_rate": 3.5
+      "cap_rate": 3.5,
+      "avg_annual_revenue": 19668.22,
+      "avg_annual_ni": 3531.31,
+      "proj_2026_revenue": 1878.19,
+      "total_cost": 451155.0,
+      "coc_return_avg": 3.3,
+      "roe_return_avg": 2.0
     },
     {
       "name": "406 W MORGAN LLC",
@@ -898,7 +953,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 0.0,
+      "avg_annual_ni": -63.17,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 256020.0,
+      "coc_return_avg": -0.0,
+      "roe_return_avg": -0.0
     },
     {
       "name": "827 S Crockett LLC",
@@ -987,7 +1048,13 @@
       "coc_return": 7.7,
       "roe_return": 5.9,
       "noi_2025": 13574,
-      "cap_rate": 3.4
+      "cap_rate": 3.4,
+      "avg_annual_revenue": 37540.51,
+      "avg_annual_ni": 8656.5,
+      "proj_2026_revenue": 23714.46,
+      "total_cost": 345651.0,
+      "coc_return_avg": 4.9,
+      "roe_return_avg": 3.8
     },
     {
       "name": "2834 Millwood dr LLC",
@@ -1075,7 +1142,13 @@
       "coc_return": 6.0,
       "roe_return": 7.0,
       "noi_2025": 14641,
-      "cap_rate": 2.0
+      "cap_rate": 2.0,
+      "avg_annual_revenue": 57320.41,
+      "avg_annual_ni": 16357.73,
+      "proj_2026_revenue": 50600.85,
+      "total_cost": 787166,
+      "coc_return_avg": 6.7,
+      "roe_return_avg": 7.8
     },
     {
       "name": "5624 Eastside Ave LLC",
@@ -1167,7 +1240,13 @@
       "coc_return": -37.2,
       "roe_return": -9.2,
       "noi_2025": -24707,
-      "cap_rate": -3.5
+      "cap_rate": -3.5,
+      "avg_annual_revenue": 30818.68,
+      "avg_annual_ni": -6851.96,
+      "proj_2026_revenue": 36615.3,
+      "total_cost": 731003.0,
+      "coc_return_avg": -10.3,
+      "roe_return_avg": -2.5
     },
     {
       "name": "329 BLANDIN STREET LLC",
@@ -1218,11 +1297,11 @@
       },
       "equity_sheet": {
         "property_value": 350000,
-        "total_investment": 280000,
+        "total_investment": 239825,
         "mortgage": 150336,
-        "equity_cost_based": 129664,
+        "equity_cost_based": 89489,
         "equity_value_based": 199664,
-        "your_equity_cost": 129664,
+        "your_equity_cost": 89489,
         "your_equity_value": 199664
       },
       "ownership_type": "nir_direct",
@@ -1246,17 +1325,23 @@
         "loan_number": ""
       },
       "acquisition": {
-        "house_cost": 114140.0,
-        "reno_cost": 165860.0,
-        "total_investment": 280000,
-        "cash_invested": 129664
+        "house_cost": 189825.0,
+        "reno_cost": 50000.0,
+        "total_investment": 239825.0,
+        "cash_invested": 89489.0
       },
       "flags": [],
       "revenue_pct": 1.7,
       "coc_return": 17.4,
       "roe_return": 11.3,
       "noi_2025": 22504,
-      "cap_rate": 6.4
+      "cap_rate": 6.4,
+      "avg_annual_revenue": 31797.94,
+      "avg_annual_ni": 10336.63,
+      "proj_2026_revenue": 15981.45,
+      "total_cost": 239825.0,
+      "coc_return_avg": 11.6,
+      "roe_return_avg": 5.2
     },
     {
       "name": "522 FLAMINGO LLC",
@@ -1352,7 +1437,13 @@
       "coc_return": 12.6,
       "roe_return": 9.9,
       "noi_2025": 14655,
-      "cap_rate": 3.4
+      "cap_rate": 3.4,
+      "avg_annual_revenue": 24348.78,
+      "avg_annual_ni": 11410.87,
+      "proj_2026_revenue": 21606.6,
+      "total_cost": 402017.0,
+      "coc_return_avg": 9.8,
+      "roe_return_avg": 7.7
     },
     {
       "name": "6509 LAKESHORE CT LLC",
@@ -1448,7 +1539,13 @@
       "coc_return": -0.9,
       "roe_return": -0.7,
       "noi_2025": -3747,
-      "cap_rate": -0.4
+      "cap_rate": -0.4,
+      "avg_annual_revenue": 33764.23,
+      "avg_annual_ni": -13759.22,
+      "proj_2026_revenue": 45240.56,
+      "total_cost": 749350.0,
+      "coc_return_avg": -3.4,
+      "roe_return_avg": -2.5
     },
     {
       "name": "1443 Marlene LLC",
@@ -1544,7 +1641,13 @@
       "coc_return": 9.0,
       "roe_return": 6.5,
       "noi_2025": 11519,
-      "cap_rate": 1.8
+      "cap_rate": 1.8,
+      "avg_annual_revenue": 54854.1,
+      "avg_annual_ni": 31687.03,
+      "proj_2026_revenue": 90102.18,
+      "total_cost": 600000.0,
+      "coc_return_avg": 24.9,
+      "roe_return_avg": 17.9
     },
     {
       "name": "Westshore",
@@ -1595,7 +1698,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 0,
+      "avg_annual_ni": 0,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 445503.0,
+      "coc_return_avg": 0.0,
+      "roe_return_avg": 0.0
     },
     {
       "name": "NAAMAN HOLDINGS LLC",
@@ -1682,7 +1791,13 @@
       "coc_return": 6.4,
       "roe_return": 6.1,
       "noi_2025": 36683,
-      "cap_rate": 6.1
+      "cap_rate": 6.1,
+      "avg_annual_revenue": 55038.56,
+      "avg_annual_ni": 37308.89,
+      "proj_2026_revenue": 12339.71,
+      "total_cost": 573000,
+      "coc_return_avg": 6.5,
+      "roe_return_avg": 6.2
     },
     {
       "name": "WHITNEY SNOW AND NAAMAN HOLDINGS LLC",
@@ -1723,22 +1838,22 @@
         }
       },
       "bs": {
-        "assets": 600000,
+        "assets": 2400000,
         "liabilities": 0,
-        "equity": 600000,
+        "equity": 2400000,
         "mortgages": 0,
         "total_assets": 645952.96,
         "total_liabilities": 0.0,
         "total_equity": 0.0
       },
       "equity_sheet": {
-        "property_value": 600000,
+        "property_value": 2400000,
         "total_investment": 590885,
         "mortgage": 0,
         "equity_cost_based": 590885,
-        "equity_value_based": 600000,
+        "equity_value_based": 2400000,
         "your_equity_cost": 47271,
-        "your_equity_value": 48000
+        "your_equity_value": 192000
       },
       "ownership_type": "through_amp",
       "ltv": 0,
@@ -1755,7 +1870,10 @@
         "total_distributed": 0,
         "periods": []
       },
-      "property_details": {},
+      "property_details": {
+        "address": "Whitney, TX (6 properties)",
+        "notes": "Multi-property LLC: 102 S San Marcos, 231 S Colorado, 2365 SH 22, 316 Bush, 408 W Washington, 415 S Colorado"
+      },
       "acquisition": {
         "house_cost": 321328,
         "reno_cost": 269557,
@@ -1767,7 +1885,13 @@
       "coc_return": 5.9,
       "roe_return": 5.8,
       "noi_2025": 34614,
-      "cap_rate": 5.8
+      "cap_rate": 5.8,
+      "avg_annual_revenue": 27740.25,
+      "avg_annual_ni": 11261.47,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 590885,
+      "coc_return_avg": 1.9,
+      "roe_return_avg": 0.5
     },
     {
       "name": "4207 Ashmont",
@@ -1775,7 +1899,20 @@
       "nir_pct": 100.0,
       "alexa_pct": 0,
       "combined_pct": 100.0,
-      "pl": {},
+      "pl": {
+        "2026_ytd": {
+          "income": 5400,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 5400
+        },
+        "2025": {
+          "income": 16200,
+          "cogs": 0,
+          "expenses": 0,
+          "net_income": 16200
+        }
+      },
       "bs": {
         "assets": 1200000,
         "liabilities": 608274,
@@ -1801,7 +1938,7 @@
         "2026_ytd": null
       },
       "dscr": null,
-      "est_annual_debt_service": 48562.0,
+      "est_annual_debt_service": 66530,
       "distributions": {
         "total_distributed": 0,
         "periods": []
@@ -1810,7 +1947,8 @@
         "address": "4207 Ashmont Court Dallas TX",
         "management": "A&N",
         "loan_number": "2018085098",
-        "notes": "Guest house generates ~$1,300/mo rental income"
+        "notes": "Guest house generates $1,350/mo rental income",
+        "monthly_payment_piti": 5544.16
       },
       "acquisition": {
         "house_cost": 837316.0,
@@ -1825,7 +1963,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 16523.08,
+      "avg_annual_ni": 16523.08,
+      "proj_2026_revenue": 16846.15,
+      "total_cost": 1070174.0,
+      "coc_return_avg": 3.6,
+      "roe_return_avg": 2.8
     },
     {
       "name": "125 VANDENBURG DRIVE LLC",
@@ -1912,7 +2056,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 9288.5,
+      "avg_annual_ni": 9098.98,
+      "proj_2026_revenue": 9288.5,
+      "total_cost": 224001.0,
+      "coc_return_avg": 4.1,
+      "roe_return_avg": 3.6
     },
     {
       "name": "518 S Elm LLC",
@@ -1999,7 +2149,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 0.0,
+      "avg_annual_ni": -8752.29,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 211567.0,
+      "coc_return_avg": -4.1,
+      "roe_return_avg": -3.5
     },
     {
       "name": "150 PR CLIFTON LLC",
@@ -2040,25 +2196,25 @@
         }
       },
       "bs": {
-        "assets": 650000,
-        "liabilities": 280000,
-        "equity": 370000,
-        "mortgages": 280000,
+        "assets": 900000,
+        "liabilities": 536918,
+        "equity": 363082,
+        "mortgages": 536918,
         "total_assets": 156449.96,
         "total_liabilities": 0.0,
         "total_equity": 0.0
       },
       "equity_sheet": {
         "property_value": 900000,
-        "total_investment": 485607,
-        "mortgage": 280000,
-        "equity_cost_based": 205607,
-        "equity_value_based": 620000,
-        "your_equity_cost": 32897,
-        "your_equity_value": 99200
+        "total_investment": 671147,
+        "mortgage": 536918,
+        "equity_cost_based": 134229,
+        "equity_value_based": 363082,
+        "your_equity_cost": 21477,
+        "your_equity_value": 58093
       },
       "ownership_type": "through_amp",
-      "ltv": 31.1,
+      "ltv": 59.7,
       "margins": {
         "2022": null,
         "2023": null,
@@ -2067,7 +2223,7 @@
         "2026_ytd": -784.4
       },
       "dscr": null,
-      "est_annual_debt_service": 22354.0,
+      "est_annual_debt_service": 30756,
       "distributions": {
         "total_distributed": 0,
         "periods": []
@@ -2075,9 +2231,9 @@
       "property_details": {},
       "acquisition": {
         "house_cost": 342799.0,
-        "reno_cost": 142808.0,
-        "total_investment": 485607.0,
-        "cash_invested": 205607.0
+        "reno_cost": 328348.0,
+        "total_investment": 671147.0,
+        "cash_invested": 73738.0
       },
       "flags": [
         "Recently Started"
@@ -2086,7 +2242,13 @@
       "coc_return": -5.6,
       "roe_return": -3.1,
       "noi_2025": -11432,
-      "cap_rate": -1.8
+      "cap_rate": -1.8,
+      "avg_annual_revenue": 3750.11,
+      "avg_annual_ni": -21614.7,
+      "proj_2026_revenue": 7500.22,
+      "total_cost": 671147.0,
+      "coc_return_avg": -29.3,
+      "roe_return_avg": -6.0
     },
     {
       "name": "AMP LIVE GROUP LLC",
@@ -2158,7 +2320,13 @@
       ],
       "revenue_pct": 62.4,
       "cap_rate": null,
-      "noi_2025": -3173
+      "noi_2025": -3173,
+      "avg_annual_revenue": 1761163.58,
+      "avg_annual_ni": -212102.28,
+      "proj_2026_revenue": 1637765.89,
+      "total_cost": 0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     },
     {
       "name": "SBN PRIVATE HOLDING",
@@ -2229,7 +2397,13 @@
       "flags": [],
       "revenue_pct": 5.8,
       "cap_rate": null,
-      "noi_2025": 116944
+      "noi_2025": 116944,
+      "avg_annual_revenue": 138188.18,
+      "avg_annual_ni": 62975.0,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     },
     {
       "name": "AMP Live Properties LLC",
@@ -2304,7 +2478,13 @@
       "flags": [],
       "revenue_pct": 5.3,
       "cap_rate": null,
-      "noi_2025": 32039
+      "noi_2025": 32039,
+      "avg_annual_revenue": 110100.49,
+      "avg_annual_ni": 13242.19,
+      "proj_2026_revenue": 171914.25,
+      "total_cost": 105250.0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     },
     {
       "name": "CAPLEX EQUITY LLC",
@@ -2374,7 +2554,13 @@
       "flags": [],
       "revenue_pct": 0,
       "cap_rate": null,
-      "noi_2025": null
+      "noi_2025": null,
+      "avg_annual_revenue": 0,
+      "avg_annual_ni": 0,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     },
     {
       "name": "FIXORY MAINTENANCE LLC",
@@ -2444,7 +2630,13 @@
       "flags": [],
       "revenue_pct": 0,
       "cap_rate": null,
-      "noi_2025": null
+      "noi_2025": null,
+      "avg_annual_revenue": 127411.3,
+      "avg_annual_ni": -7695.64,
+      "proj_2026_revenue": 127411.3,
+      "total_cost": 0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     },
     {
       "name": "HAR-EVAN LLC",
@@ -2534,7 +2726,13 @@
       "coc_return": null,
       "roe_return": null,
       "noi_2025": null,
-      "cap_rate": null
+      "cap_rate": null,
+      "avg_annual_revenue": 0,
+      "avg_annual_ni": 0,
+      "proj_2026_revenue": 0.0,
+      "total_cost": 436170,
+      "coc_return_avg": 0.0,
+      "roe_return_avg": 0.0
     },
     {
       "name": "BAIGEL HOUSING LLC",
@@ -2606,20 +2804,27 @@
       ],
       "revenue_pct": 0,
       "cap_rate": null,
-      "noi_2025": -1000
+      "noi_2025": -1000,
+      "avg_annual_revenue": 8245.94,
+      "avg_annual_ni": 3131.32,
+      "proj_2026_revenue": 16491.89,
+      "total_cost": 0,
+      "coc_return_avg": null,
+      "roe_return_avg": null
     }
   ],
   "summary": {
     "total_properties": 24,
-    "total_property_value": 14104000,
-    "total_mortgage": 5099608,
-    "total_equity_value_based": 3240063,
+    "total_property_value": 15904000,
+    "total_mortgage": 5327012,
+    "total_equity_value_based": 10576988,
     "total_equity_cost_based": 2191534,
     "valuation_method": "property_value_conservative",
     "data_source": "Equity Value End 2025 Google Sheet + QuickBooks P&L",
-    "total_mortgages": 5070094,
-    "total_net_equity": 9033906,
-    "your_net_equity": 3737927.0
+    "total_mortgages": 5327012,
+    "total_net_equity": 10576988,
+    "your_net_equity": 3840820.0,
+    "avg_annual_revenue": 2815316.47
   },
   "net_worth_trend": {
     "2025": 3829446.0,

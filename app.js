@@ -164,6 +164,12 @@ function companyRow(c) {
     distributions: c.distributions || { total_distributed: 0, periods: [] },
     coc_return: c.coc_return ?? null,
     roe_return: c.roe_return ?? null,
+    coc_return_avg: c.coc_return_avg ?? null,
+    roe_return_avg: c.roe_return_avg ?? null,
+    avg_annual_revenue: c.avg_annual_revenue ?? null,
+    avg_annual_ni: c.avg_annual_ni ?? null,
+    proj_2026_revenue: c.proj_2026_revenue ?? null,
+    total_cost: c.total_cost ?? null,
     cap_rate: c.cap_rate ?? null,
     noi_2025: c.noi_2025 ?? null,
     cash_invested: (c.acquisition || {}).cash_invested ?? null,
@@ -394,7 +400,16 @@ function renderEquityChart(data) {
 }
 
 function renderYoYChart(data) {
+  const shareView = STATE.view === 'share';
   const rows = data.companies.map(companyRow)
+    .map(r => {
+      // apply share multiplier if Your Share is active
+      if (shareView) {
+        const m = (r.combined_pct || 0) / 100;
+        return { ...r, r2022: r.r2022 * m, r2023: r.r2023 * m, r2024: r.r2024 * m, r2025: r.r2025 * m, r2026: r.r2026 * m };
+      }
+      return r;
+    })
     .sort((a, b) => b.r2025 - a.r2025)
     .slice(0, 10);
 
@@ -534,23 +549,23 @@ function renderProperties(data) {
             <span class="value gold">${fmtMoney(r.your_equity, true)}</span>
           </div>
           <div class="prop-metric">
-            <span class="label">2025 Revenue</span>
-            <span class="value">${fmtMoney(rev, true)}</span>
+            <span class="label">Avg Annual Revenue</span>
+            <span class="value">${fmtMoney((shareView ? (r.avg_annual_revenue || 0) * share : (r.avg_annual_revenue || 0)), true)}</span>
           </div>
           <div class="prop-metric">
-            <span class="label">2025 Net Income</span>
-            <span class="value ${ni >= 0 ? 'pos' : 'neg'}">${fmtMoney(ni, true)}</span>
+            <span class="label">Avg Annual NI</span>
+            <span class="value ${(r.avg_annual_ni || 0) >= 0 ? 'pos' : 'neg'}">${fmtMoney((shareView ? (r.avg_annual_ni || 0) * share : (r.avg_annual_ni || 0)), true)}</span>
           </div>
         </div>
 
         <div class="prop-metrics" style="grid-template-columns: 1fr 1fr 1fr;">
-          <div class="prop-metric">
-            <span class="label">Cash-on-Cash</span>
-            <span class="value ${r.coc_return !== null ? (r.coc_return >= 10 ? 'pos' : r.coc_return < 0 ? 'neg' : '') : 'dim'}">${r.coc_return !== null ? r.coc_return.toFixed(1) + '%' : '—'}</span>
+          <div class="prop-metric" title="Cash-on-Cash, computed from 3-year average annual NI">
+            <span class="label">CoC (avg)</span>
+            <span class="value ${r.coc_return_avg !== null ? (r.coc_return_avg >= 10 ? 'pos' : r.coc_return_avg < 0 ? 'neg' : '') : 'dim'}">${r.coc_return_avg !== null ? r.coc_return_avg.toFixed(1) + '%' : '—'}</span>
           </div>
-          <div class="prop-metric">
-            <span class="label">Return on Equity</span>
-            <span class="value ${r.roe_return !== null ? (r.roe_return >= 8 ? 'pos' : r.roe_return < 0 ? 'neg' : '') : 'dim'}">${r.roe_return !== null ? r.roe_return.toFixed(1) + '%' : '—'}</span>
+          <div class="prop-metric" title="Return on Equity, computed from 3-year average annual NI">
+            <span class="label">ROE (avg)</span>
+            <span class="value ${r.roe_return_avg !== null ? (r.roe_return_avg >= 8 ? 'pos' : r.roe_return_avg < 0 ? 'neg' : '') : 'dim'}">${r.roe_return_avg !== null ? r.roe_return_avg.toFixed(1) + '%' : '—'}</span>
           </div>
           <div class="prop-metric">
             <span class="label">Cap Rate</span>
@@ -585,7 +600,7 @@ function renderProperties(data) {
         ${totalInvest > 0 ? `
         <div class="prop-foot">
           <div>
-            <span class="lbl">Acquisition</span>
+            <span class="lbl">Acquisition + CapEx</span>
             <span class="val">${fmtMoney(totalInvest, true)}</span>
           </div>
           <div>
@@ -1020,6 +1035,7 @@ function renderViewDependent(data) {
   // Re-render things that depend on Total/Share toggle
   renderKpis(data);
   if (STATE.charts.revenue) renderRevenueChart(data);
+  if (STATE.charts.yoy) renderYoYChart(data);
   if (STATE.page === 'properties') renderProperties(data);
   document.querySelectorAll('.view-label').forEach(el => {
     el.textContent = STATE.view === 'share' ? 'Your Share' : 'Total';
