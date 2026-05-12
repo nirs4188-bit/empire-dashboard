@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-04-28 22:51:56",
+  "pulled_at": "2026-05-12 15:44:51",
   "companies": [
     {
       "name": "7006 Shipp rd LLC",
@@ -2264,52 +2264,54 @@
         "2022": {
           "income": 1733118.58,
           "cogs": 1234025.61,
+          "gross_profit": 499092.97,
           "expenses": 357589.44,
           "net_income": 141503.53
         },
         "2023": {
           "income": 1640600.5,
           "cogs": 1396405.6,
+          "gross_profit": 244194.9,
           "expenses": 205790.15,
           "net_income": 45509.75
         },
         "2024": {
           "income": 1795097.72,
           "cogs": 1487345.51,
+          "gross_profit": 307752.21,
           "expenses": 373515.84,
           "net_income": -61946.93
         },
         "2025": {
           "income": 1850627.12,
-          "cogs": 1558065.78,
-          "expenses": 321488.53,
-          "net_income": -3173.19
+          "cogs": 1558722.08,
+          "gross_profit": 291905.04,
+          "expenses": 321170.33,
+          "net_income": -3511.29
         },
         "2026_ytd": {
-          "income": 524982.49,
-          "cogs": 564012.47,
-          "expenses": 142163.47,
-          "net_income": -183092.73
+          "income": 588613.51,
+          "cogs": 582802.36,
+          "gross_profit": 5811.15,
+          "expenses": 155542.3,
+          "net_income": -151463.03
         }
       },
       "bs": {
-        "assets": 868631.41,
-        "liabilities": 746728.25,
-        "equity": 121903.16000000003,
-        "mortgages": 602217.77,
-        "total_assets": 845746.34,
-        "total_liabilities": 0.0,
-        "total_equity": 0.0
+        "assets": 861080.56,
+        "liabilities": 743467.69,
+        "equity": 117612.87,
+        "current_assets": 444817.18,
+        "fixed_assets": 416263.38,
+        "current_liabilities": 144084.73,
+        "long_term_liabilities": 599382.96
       },
       "equity_sheet": null,
       "ownership_type": "operating",
       "ltv": 69.3,
       "margins": {
-        "2022": 8.2,
-        "2023": 2.8,
-        "2024": -3.5,
-        "2025": -0.2,
-        "2026_ytd": -28.1
+        "gross_2025": 15.77,
+        "net_2025": -0.19
       },
       "dscr": null,
       "est_annual_debt_service": 0,
@@ -2325,12 +2327,13 @@
       "revenue_pct": 62.4,
       "cap_rate": null,
       "noi_2025": -3173,
-      "avg_annual_revenue": 1761163.58,
-      "avg_annual_ni": -212102.28,
-      "proj_2026_revenue": 1637765.89,
+      "avg_annual_revenue": 1754860.98,
+      "avg_annual_ni": 30388.76,
+      "proj_2026_revenue": 1627605.54,
       "total_cost": 0,
       "coc_return_avg": null,
-      "roe_return_avg": null
+      "roe_return_avg": null,
+      "r_2025": 1850627.12
     },
     {
       "name": "SBN PRIVATE HOLDING",
@@ -2828,7 +2831,7 @@
     "total_mortgages": 5327012,
     "total_net_equity": 9026988,
     "your_net_equity": 3716820.0,
-    "avg_annual_revenue": 2815316.47
+    "avg_annual_revenue": 96220.56
   },
   "net_worth_trend": {
     "2025": 3829446.0,
@@ -2837,5 +2840,5 @@
     "2023": 3165531.0,
     "2022": 2861010.0
   },
-  "total_revenue_2025": 2966637.2600000002
+  "total_revenue_2025": 2982837.26
 }
